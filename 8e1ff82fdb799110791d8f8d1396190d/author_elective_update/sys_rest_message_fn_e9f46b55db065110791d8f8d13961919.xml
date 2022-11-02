@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Meetup Spoke GQL [ Default GET ]</qualified_name>
+        <rest_endpoint>https://api.meetup.com/</rest_endpoint>
+        <rest_message display_value="Meetup Spoke GQL">ebd4e755db065110791d8f8d13961989</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2022-09-19 15:52:32</sys_created_on>
+        <sys_id>e9f46b55db065110791d8f8d13961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_e9f46b55db065110791d8f8d13961919</sys_update_name>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2022-09-19 15:52:32</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</application>
+        <file_path/>
+        <instance_id>313436a1dbe4a7080e785d00cf961917</instance_id>
+        <instance_name>devprogramresources</instance_name>
+        <name>sys_rest_message_fn_e9f46b55db065110791d8f8d13961919</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Meetup Spoke GQL [ Default GET ]</qualified_name><rest_endpoint>https://api.meetup.com/</rest_endpoint><rest_message display_value="Meetup Spoke GQL">ebd4e755db065110791d8f8d13961989</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>earl.duque</sys_created_by><sys_created_on>2022-09-19 15:52:32</sys_created_on><sys_id>e9f46b55db065110791d8f8d13961919</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package><sys_policy/><sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope><sys_update_name>sys_rest_message_fn_e9f46b55db065110791d8f8d13961919</sys_update_name><sys_updated_by>earl.duque</sys_updated_by><sys_updated_on>2022-09-19 15:52:32</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>376480788</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>021ff82fdb799110791d8f8d13961910</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>earl.duque</sys_created_by>
+        <sys_created_on>2022-09-19 15:52:32</sys_created_on>
+        <sys_id>e5f46b55db065110791d8f8d1396191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18356737d6f0000001</sys_recorded_at>
+        <sys_updated_by>earl.duque</sys_updated_by>
+        <sys_updated_on>2022-09-19 15:52:32</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>21f46b5596065110e37ed748fbf17f1b</update_guid>
+        <update_guid_history>21f46b5596065110e37ed748fbf17f1b:376480788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-09-19 17:54:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>07fead086e3a40448042435d919003a1</sys_id>
+        <sys_metadata>e9f46b55db065110791d8f8d13961919</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_parent display_value="Meetup Spoke GQL">ebd4e755db065110791d8f8d13961989</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_scope_delete display_value="">3008db984fbb496a8c36e13514345ec4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_e9f46b55db065110791d8f8d13961919</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_e9f46b55db065110791d8f8d13961919">e5f46b55db065110791d8f8d1396191b</sys_update_version>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-09-19 17:54:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_meetup_com_query">
+    <x_snc_meetup_com_query action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <id>get-upcoming-event-rsvp-paginated</id>
+        <name>Get RSVPs for an upcoming event (DS)</name>
+        <query>query ($eventId: ID!, $itemsNum: Int!, $cursor: String) {
+  event(id: $eventId) {
+    title
+    id
+    eventUrl
+    description
+    dateTime
+    duration
+    host {
+      id
+      name
+    }
+    images {
+      id
+      baseUrl
+      preview
+    }
+    group {
+      id
+      name
+      urlname
+    }
+    tickets(input: {first: $itemsNum, after: $cursor}) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      yesCount
+      noCount
+      waitlistCount
+      attendedCount
+      absentCount
+      noShowCount
+      edges {
+        node {
+          id
+          status
+          quantity
+          guestsCount
+          user {
+            name
+            email
+          }
+        }
+      }
+    }
+  }
+}
+</query>
+        <sys_class_name>x_snc_meetup_com_query</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-01 15:24:06</sys_created_on>
+        <sys_id>f5aa3013dbbad110791d8f8d13961961</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get RSVPs for an upcoming event (DS)</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>x_snc_meetup_com_query_f5aa3013dbbad110791d8f8d13961961</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-02 23:46:48</sys_updated_on>
+        <variables>{
+  "eventId": "289022778"
+}</variables>
+    </x_snc_meetup_com_query>
+</record_update>

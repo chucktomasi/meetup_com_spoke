@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_meetup_com.Constants</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Constants</name>
+        <script><![CDATA[var Constants = Class.create();
+
+Constants.SCOPE_NAME = 'x_snc_meetup_com';
+Constants.QUERY_TABLE = Constants.SCOPE_NAME + '_query';]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-10-31 22:05:08</sys_created_on>
+        <sys_id>0adc450bdb7e9110791d8f8d1396192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Constants</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_script_include_0adc450bdb7e9110791d8f8d1396192d</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-10-31 22:05:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_meetup_com.query_user" name="x_snc_meetup_com.query_user">c5467b6fdb725510791d8f8d1396195e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-02 23:41:35</sys_created_on>
+        <sys_id>0d467b6fdb725510791d8f8d13961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c5467b6fdb725510791d8f8d1396195e</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_0d467b6fdb725510791d8f8d13961960</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-02 23:41:35</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

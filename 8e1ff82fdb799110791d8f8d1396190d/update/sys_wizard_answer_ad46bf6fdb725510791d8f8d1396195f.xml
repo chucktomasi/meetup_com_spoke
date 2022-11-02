@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Query</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Query</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">b85fd463db1123008ae4dfea5e9619f8</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-02 23:41:36</sys_created_on>
+        <sys_id>ad46bf6fdb725510791d8f8d1396195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_wizard_answer_ad46bf6fdb725510791d8f8d1396195f</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-02 23:41:36</sys_updated_on>
+        <table/>
+        <target_url>x_snc_meetup_com_query.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

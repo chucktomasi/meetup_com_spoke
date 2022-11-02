@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="query" table="var__m_sys_hub_action_input_bbe6ac61db0a5110791d8f8d1396192a" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>query</element>
+            <name>var__m_sys_hub_action_input_bbe6ac61db0a5110791d8f8d1396192a</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2022-09-19 20:40:47</sys_created_on>
+            <sys_id>33e6ac61db0a5110791d8f8d13961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2022-09-19 20:40:47</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>query</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_bbe6ac61db0a5110791d8f8d1396192a</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2022-09-19 20:40:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbe6ac61db0a5110791d8f8d13961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2022-09-19 20:40:47</sys_updated_on>
+            <value/>
+        </sys_choice>
+    </sys_choice>
+</record_update>

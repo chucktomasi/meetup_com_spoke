@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Query" max_length="40" name="x_snc_meetup_com_query" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="ID" mandatory="true" max_length="40" name="id" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="80" name="name" type="string"/>
+        <element label="Query" mandatory="true" max_length="4000" name="query" type="graphql_schema"/>
+        <element attributes="edge_encryption_enabled=true" label="Sample variables" max_length="1000" name="variables" type="string"/>
+    </element>
+</database>

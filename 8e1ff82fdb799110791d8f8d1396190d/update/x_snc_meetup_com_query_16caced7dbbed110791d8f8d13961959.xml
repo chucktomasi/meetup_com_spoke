@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_meetup_com_query">
+    <x_snc_meetup_com_query action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <id>get-group-members-paginated</id>
+        <name>Get members for a particular group (DS)</name>
+        <query>query ($urlname: String!, $itemsNum: Int!, $cursor:String) {
+  groupByUrlname(urlname: $urlname) {
+    id
+    name
+    urlname
+    memberships(input: {first: $itemsNum, after: $cursor}) {
+      count
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+      edges {
+        node {
+          id
+          name
+          username
+          email
+          status
+          isLeader
+          memberPhoto {
+            id
+            baseUrl
+          }
+        }
+      }
+    }
+  }
+}
+</query>
+        <sys_class_name>x_snc_meetup_com_query</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-01 21:13:30</sys_created_on>
+        <sys_id>16caced7dbbed110791d8f8d13961959</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get members for a particular group (DS)</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>x_snc_meetup_com_query_16caced7dbbed110791d8f8d13961959</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-02 23:46:48</sys_updated_on>
+        <variables>{
+  "urlname" :  "buffalo-servicenow-meetup-group",
+  "itemsNum" : 10,
+  "cursor" : null
+}</variables>
+    </x_snc_meetup_com_query>
+</record_update>
