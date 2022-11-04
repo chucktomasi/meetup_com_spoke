@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Network">c4d22a27db7e1510791d8f8d1396195b</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Test the data stream action to get the network groups</description>
+        <internal_name>test_get_network_groups</internal_name>
+        <label_cache>[{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.group.memberships.count","label":"1 - Get network groups (DS)➛Group➛Memberships➛Count","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.group.name","label":"1 - Get network groups (DS)➛Group➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"079e7194-596c-4b4c-adfd-8ee9645bbeaf.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"079e7194-596c-4b4c-adfd-8ee9645bbeaf.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.group","label":"1 - Get network groups (DS)➛Group","reference_display":"Group","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD38ffe7bb32fe55100726e8c2f76bcd6d","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"55fa9db6-3f94-4866-8d3a-b30f4746c0ef"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.ds_parsed_stream","label":"1 - Get network groups (DS)➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.error_code","label":"1 - Get network groups (DS)➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.status_code","label":"1 - Get network groups (DS)➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.error_message","label":"1 - Get network groups (DS)➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.response_headers","label":"1 - Get network groups (DS)➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.ds_output_page_variables","label":"1 - Get network groups (DS)➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.item","label":"1 - Get network groups (DS)➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.ds_count","label":"1 - Get network groups (DS)➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.count","label":"1 - Get network groups (DS)➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.page_count","label":"1 - Get network groups (DS)➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"024ad588-4860-4ca7-99c6-7e4c131ee889.item_count","label":"1 - Get network groups (DS)➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","visible_in_ad":"false"}},{"name":"subflow.network_url","label":"Input➛Network URL","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5b427c29-74e9-48ac-8f4a-854b756a4a42","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test: Get Network Groups</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:26:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9233bd40dbc79510791d8f8d139619db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test: Get Network Groups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_hub_flow_9233bd40dbc79510791d8f8d139619db</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:28:16</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9233bd40dbc79510791d8f8d139619db^sys_idNOT IN1633bd40dbc79510791d8f8d139619dd"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9233bd40dbc79510791d8f8d139619db</id>
+        <name>Test: Get Network Groups</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:26:00</sys_created_on>
+        <sys_id>1633bd40dbc79510791d8f8d139619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:26:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1633bd40dbc79510791d8f8d139619dd"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9233bd40dbc79510791d8f8d139619db^sys_idNOT INc2a3f980dbc79510791d8f8d139619e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5b427c29-74e9-48ac-8f4a-854b756a4a42</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>network_url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Network URL</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test: Get Network Groups">9233bd40dbc79510791d8f8d139619db</model>
+        <model_id>9233bd40dbc79510791d8f8d139619db</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9233bd40dbc79510791d8f8d139619db</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:27:54</sys_created_on>
+        <sys_id>c2a3f980dbc79510791d8f8d139619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:27:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9233bd40dbc79510791d8f8d139619db^sys_idNOT IN5aa33d80dbc79510791d8f8d13961907,d6a33d80dbc79510791d8f8d13961902"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test: Get Network Groups">9233bd40dbc79510791d8f8d139619db</flow>
+        <order>2</order>
+        <parent_ui_id>024ad588-4860-4ca7-99c6-7e4c131ee889</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:27:54</sys_created_on>
+        <sys_id>5aa33d80dbc79510791d8f8d13961907</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:28:16</sys_updated_on>
+        <ui_id>079e7194-596c-4b4c-adfd-8ee9645bbeaf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5aa33d80dbc79510791d8f8d13961907"/>
+    <sys_element_mapping action="delete_multiple" query="id=5aa33d80dbc79510791d8f8d13961907"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>5aa33d80dbc79510791d8f8d13961907</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:27:54</sys_created_on>
+        <sys_id>dea33d80dbc79510791d8f8d13961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:27:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>SUBFLOW: Test: Get Network Groups: Group ({{024ad588-4860-4ca7-99c6-7e4c131ee889.item_count}}) = ﻿{{024ad588-4860-4ca7-99c6-7e4c131ee889.group.name}} with ﻿{{024ad588-4860-4ca7-99c6-7e4c131ee889.group.memberships.count}} members﻿</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5aa33d80dbc79510791d8f8d13961907"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5aa33d80dbc79510791d8f8d13961907"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get network groups (DS)">64ffa7bbdbfe5510791d8f8d139619f6</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test: Get Network Groups">9233bd40dbc79510791d8f8d139619db</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:27:54</sys_created_on>
+        <sys_id>d6a33d80dbc79510791d8f8d13961902</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:28:16</sys_updated_on>
+        <ui_id>024ad588-4860-4ca7-99c6-7e4c131ee889</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d6a33d80dbc79510791d8f8d13961902"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6a33d80dbc79510791d8f8d13961902</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:28:16</sys_created_on>
+        <sys_id>6bb3bd80dbc79510791d8f8d1396194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:28:16</sys_updated_on>
+        <value/>
+        <variable display_value="URL Name">6cffa7bbdbfe5510791d8f8d139619f9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d6a33d80dbc79510791d8f8d13961902"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>urlname</field>
+        <id>d6a33d80dbc79510791d8f8d13961902</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:28:16</sys_created_on>
+        <sys_id>e7b3bd80dbc79510791d8f8d1396194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:28:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_64ffa7bbdbfe5510791d8f8d139619f6</table>
+        <value>{{subflow.network_url}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d6a33d80dbc79510791d8f8d13961902"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d6a33d80dbc79510791d8f8d13961902"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9233bd40dbc79510791d8f8d139619db^sys_idNOT IN4aa3f980dbc79510791d8f8d139619e3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>network_url</element>
+        <help/>
+        <hint/>
+        <label>Network URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9233bd40dbc79510791d8f8d139619db</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-04 03:27:54</sys_created_on>
+        <sys_id>4aa3f980dbc79510791d8f8d139619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-04 03:27:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9233bd40dbc79510791d8f8d139619db"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9233bd40dbc79510791d8f8d139619db"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9233bd40dbc79510791d8f8d139619db"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9233bd40dbc79510791d8f8d139619db"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9233bd40dbc79510791d8f8d139619db"/>
+</record_update>
