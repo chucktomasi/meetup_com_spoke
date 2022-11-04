@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1a34dfff7c7e5510a4f930f5b3052f61</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8e1ff82fdb799110791d8f8d1396190d</scope_name>
+        <serialized_content>{"FlowDesigner:FD1a34dfff7c7e5510a4f930f5b3052f61":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"name\\\":\\\"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}\\\"}\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"id\\\":\\\"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}\\\"}\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"email\\\":\\\"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}\\\"}\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"username\\\":\\\"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}\\\"}\",\"default_value\":\"\",\"label\":\"Username\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"}},"FlowDesigner:FD1a34dfff7c7e5510a4f930f5b3052f61.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"User\",\"mandatory\":\"false\",\"uiUniqueId\":\"30ca118d-44f5-4f42-91ff-0ccbeacb3136\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1a34dfff7c7e5510a4f930f5b3052f61\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-03 15:51:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>da34dfffdb7e5510791d8f8d13961961</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD1a34dfff7c7e5510a4f930f5b3052f61</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_complex_object_da34dfffdb7e5510791d8f8d13961961</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-03 15:53:57</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

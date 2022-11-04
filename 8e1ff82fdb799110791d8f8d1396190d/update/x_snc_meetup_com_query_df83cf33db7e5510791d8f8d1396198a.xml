@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_meetup_com_query">
+    <x_snc_meetup_com_query action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <id>self</id>
+        <name>Get info about current requester</name>
+        <query>query {&#13;
+  self {&#13;
+    name&#13;
+    username&#13;
+    id&#13;
+    email&#13;
+    isAdmin&#13;
+    isOrganizer&#13;
+    isLeader&#13;
+    isProOrganizer&#13;
+  }&#13;
+}&#13;
+</query>
+        <sys_class_name>x_snc_meetup_com_query</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-03 14:39:20</sys_created_on>
+        <sys_id>df83cf33db7e5510791d8f8d1396198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get info about current requester</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>x_snc_meetup_com_query_df83cf33db7e5510791d8f8d1396198a</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-03 14:39:20</sys_updated_on>
+        <variables/>
+    </x_snc_meetup_com_query>
+</record_update>
