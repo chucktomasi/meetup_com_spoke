@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <in_default_profile>true</in_default_profile>
+        <name>ageless</name>
+        <oauth_entity display_value="Meetup API">ecb2fa2897875110a75dfce3a253afe3</oauth_entity>
+        <oauth_entity_scope>ageless</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 21:21:55</sys_created_on>
+        <sys_id>9ef2ba2897875110a75dfce3a253afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ageless</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>oauth_entity_scope_9ef2ba2897875110a75dfce3a253afee</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 21:21:55</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>

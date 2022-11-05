@@ -35,7 +35,7 @@ GraphQL.prototype = {
 
 		// Make it Meetup friendly
 		var myQuery = qGr.getValue('query');
-		myQuery = myQuery.replace(/"/g, "\\\"").replace(/[\n\r\t]/g, ' ').replace(/  +/g, ' ');
+		myQuery = myQuery.replace(/"/g, "\"").replace(/[\n\r\t]/g, ' ').replace(/  +/g, ' ');
 
 		// Now put the query and the variables into the body object
 		var requestBody = JSON.stringify({
@@ -53,13 +53,13 @@ GraphQL.prototype = {
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-10-31 23:32:08</sys_created_on>
         <sys_id>1e0d090bdb7e9110791d8f8d13961920</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>GraphQL</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_script_include_1e0d090bdb7e9110791d8f8d13961920</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-02 23:27:38</sys_updated_on>
+        <sys_updated_on>2022-11-05 22:06:52</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Network">c4d22a27db7e1510791d8f8d1396195b</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>A flow to test the REST action to get massive data from Meetup.com</description>
+        <internal_name>test_get_network_groups_upcoming_events_and_rsvps</internal_name>
+        <label_cache>[{"name":"subflow.network_url","label":"Input➛Network URL","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5b6d1a74-c7b4-4f22-b8f3-64094a68c4d8","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"f80ab0a4-61ce-4b98-b234-ba17c29f5570.__dont_treat_as_error__","label":"1 - Get all groups, upcoming events, and RSVPs➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"f9a8bdd0-0212-4fe1-ab9b-f9c427b562ce"}},{"name":"f80ab0a4-61ce-4b98-b234-ba17c29f5570.__action_status__","label":"1 - Get all groups, upcoming events, and RSVPs➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"f24b27bc-7516-4639-b2f8-18a268265cb0"}},{"name":"f80ab0a4-61ce-4b98-b234-ba17c29f5570.root","label":"1 - Get all groups, upcoming events, and RSVPs➛Root","reference_display":"Root","type":"object","base_type":"object","attributes":{"sourceId":"5cc7a009-6b96-4071-b01f-0cc37638b01f","uiTypeLabel":"Object","co_type_name":"FD491607a08f0b51102b0d9bd246176ac9","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"7006d076-c2c9-468b-8055-6e1cc3f0bcb9","uiType":"object","uiUniqueId":"72fc2000-a557-4537-a2c1-05f11a4e6cc2"}},{"name":"f80ab0a4-61ce-4b98-b234-ba17c29f5570.root.data.proNetworkByUrlname.groupsSearch.edges","label":"1➛Root➛data➛proNetworkByUrlname➛groupsSearch➛edges","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"7dcf15ab-50d4-4fe9-8d3d-ca79c34e0959.item","label":"2 - For Each➛edges_object","reference_display":"edges_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7dcf15ab-50d4-4fe9-8d3d-ca79c34e0959.item.node.upcomingEvents.edges","label":"2➛edges_object➛node➛upcomingEvents➛edges","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"b0b5222f-c850-43ad-b55d-c43dac8cdba5.item","label":"3 - For Each➛Item","reference_display":"Item","type":"document_id","base_type":"document_id","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3ca2b248-93a6-462c-9eda-b8225fa219ca.__action_status__","label":"4 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3ca2b248-93a6-462c-9eda-b8225fa219ca.__dont_treat_as_error__","label":"4 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"7dcf15ab-50d4-4fe9-8d3d-ca79c34e0959.item.node.name","label":"2 - For Each➛edges_object➛node➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test: Get network groups, upcoming events and RSVPs</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:42:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0285c360970b5110a75dfce3a253af3f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test: Get network groups, upcoming events and RSVPs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_hub_flow_0285c360970b5110a75dfce3a253af3f</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0285c360970b5110a75dfce3a253af3f^sys_idNOT INce85c360970b5110a75dfce3a253af3f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0285c360970b5110a75dfce3a253af3f</id>
+        <name>Test: Get network groups, upcoming events and RSVPs</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:42:34</sys_created_on>
+        <sys_id>ce85c360970b5110a75dfce3a253af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:42:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ce85c360970b5110a75dfce3a253af3f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0285c360970b5110a75dfce3a253af3f^sys_idNOT IN0cd5cb60970b5110a75dfce3a253af59"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5b6d1a74-c7b4-4f22-b8f3-64094a68c4d8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>network_url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Network URL</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Test: Get network groups, upcoming events and RSVPs">0285c360970b5110a75dfce3a253af3f</model>
+        <model_id>0285c360970b5110a75dfce3a253af3f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_0285c360970b5110a75dfce3a253af3f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:43:48</sys_created_on>
+        <sys_id>0cd5cb60970b5110a75dfce3a253af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:43:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f^sys_idNOT IN90b78b64970b5110a75dfce3a253afb7,add68f24970b5110a75dfce3a253af0e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test: Get network groups, upcoming events and RSVPs">0285c360970b5110a75dfce3a253af3f</flow>
+        <order>4</order>
+        <parent_ui_id>b0b5222f-c850-43ad-b55d-c43dac8cdba5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:52:00</sys_created_on>
+        <sys_id>90b78b64970b5110a75dfce3a253afb7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <ui_id>3ca2b248-93a6-462c-9eda-b8225fa219ca</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=90b78b64970b5110a75dfce3a253afb7"/>
+    <sys_element_mapping action="delete_multiple" query="id=90b78b64970b5110a75dfce3a253afb7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>90b78b64970b5110a75dfce3a253afb7</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:52:00</sys_created_on>
+        <sys_id>94b78b64970b5110a75dfce3a253afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>&gt;&gt;&gt; {{7dcf15ab-50d4-4fe9-8d3d-ca79c34e0959.item.node.name}} ==&gt; </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=90b78b64970b5110a75dfce3a253afb7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=90b78b64970b5110a75dfce3a253afb7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get all groups, upcoming events, and RSVPs">f01607a0970b5110a75dfce3a253af70</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test: Get network groups, upcoming events and RSVPs">0285c360970b5110a75dfce3a253af3f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:48:17</sys_created_on>
+        <sys_id>add68f24970b5110a75dfce3a253af0e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <ui_id>f80ab0a4-61ce-4b98-b234-ba17c29f5570</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=add68f24970b5110a75dfce3a253af0e"/>
+    <sys_element_mapping action="delete_multiple" query="id=add68f24970b5110a75dfce3a253af0e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>network_url</field>
+        <id>add68f24970b5110a75dfce3a253af0e</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:48:17</sys_created_on>
+        <sys_id>e9d68f24970b5110a75dfce3a253af10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:48:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f01607a0970b5110a75dfce3a253af70</table>
+        <value>{{subflow.network_url}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=add68f24970b5110a75dfce3a253af0e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=add68f24970b5110a75dfce3a253af0e"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f^sys_idNOT IN5cb78b64970b5110a75dfce3a253afac,d0b78b64970b5110a75dfce3a253afb1"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d0b78b64970b5110a75dfce3a253afac</block>
+        <comment>Go through all groups</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Test: Get network groups, upcoming events and RSVPs">0285c360970b5110a75dfce3a253af3f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:52:00</sys_created_on>
+        <sys_id>5cb78b64970b5110a75dfce3a253afac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <ui_id>7dcf15ab-50d4-4fe9-8d3d-ca79c34e0959</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5cb78b64970b5110a75dfce3a253afac"/>
+    <sys_element_mapping action="delete_multiple" query="id=5cb78b64970b5110a75dfce3a253afac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>5cb78b64970b5110a75dfce3a253afac</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:52:00</sys_created_on>
+        <sys_id>d4b78b64970b5110a75dfce3a253afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f80ab0a4-61ce-4b98-b234-ba17c29f5570.root.data.proNetworkByUrlname.groupsSearch.edges}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5cb78b64970b5110a75dfce3a253afac"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5cb78b64970b5110a75dfce3a253afac"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9cb78b64970b5110a75dfce3a253afb0</block>
+        <comment>Go through each group's upcoming events</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Test: Get network groups, upcoming events and RSVPs">0285c360970b5110a75dfce3a253af3f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7dcf15ab-50d4-4fe9-8d3d-ca79c34e0959</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:52:00</sys_created_on>
+        <sys_id>d0b78b64970b5110a75dfce3a253afb1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <ui_id>b0b5222f-c850-43ad-b55d-c43dac8cdba5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d0b78b64970b5110a75dfce3a253afb1"/>
+    <sys_element_mapping action="delete_multiple" query="id=d0b78b64970b5110a75dfce3a253afb1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>d0b78b64970b5110a75dfce3a253afb1</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:52:00</sys_created_on>
+        <sys_id>58b78b64970b5110a75dfce3a253afb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:52:00</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{7dcf15ab-50d4-4fe9-8d3d-ca79c34e0959.item.node.upcomingEvents.edges}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d0b78b64970b5110a75dfce3a253afb1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d0b78b64970b5110a75dfce3a253afb1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0285c360970b5110a75dfce3a253af3f^sys_idNOT INc4d5cb60970b5110a75dfce3a253af5c"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>network_url</element>
+        <help/>
+        <hint/>
+        <label>Network URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0285c360970b5110a75dfce3a253af3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-05 22:43:48</sys_created_on>
+        <sys_id>c4d5cb60970b5110a75dfce3a253af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network URL</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0285c360970b5110a75dfce3a253af3f_network_url_en</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:43:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0285c360970b5110a75dfce3a253af3f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0285c360970b5110a75dfce3a253af3f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0285c360970b5110a75dfce3a253af3f"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0285c360970b5110a75dfce3a253af3f"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0285c360970b5110a75dfce3a253af3f"/>
+</record_update>

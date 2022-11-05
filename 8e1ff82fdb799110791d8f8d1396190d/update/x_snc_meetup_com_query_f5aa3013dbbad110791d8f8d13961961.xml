@@ -3,69 +3,74 @@
         <active>true</active>
         <id>get-upcoming-event-rsvp-paginated</id>
         <name>Get RSVPs for an upcoming event (DS)</name>
-        <query>query ($eventId: ID!, $itemsNum: Int!, $cursor: String) {
-  event(id: $eventId) {
-    title
-    id
-    eventUrl
-    description
-    dateTime
-    duration
-    host {
-      id
-      name
-    }
-    images {
-      id
-      baseUrl
-      preview
-    }
-    group {
-      id
-      name
-      urlname
-    }
-    tickets(input: {first: $itemsNum, after: $cursor}) {
-      pageInfo {
-        hasNextPage
-        endCursor
-      }
-      yesCount
-      noCount
-      waitlistCount
-      attendedCount
-      absentCount
-      noShowCount
-      edges {
-        node {
-          id
-          status
-          quantity
-          guestsCount
-          user {
-            name
-            email
-          }
-        }
-      }
-    }
-  }
-}
+        <query>query ($eventId: ID!, $itemsNum: Int!, $cursor: String) {&#13;
+  event(id: $eventId) {&#13;
+    title&#13;
+    id&#13;
+    eventUrl&#13;
+    description&#13;
+    dateTime&#13;
+    duration&#13;
+    host {&#13;
+      id&#13;
+      name&#13;
+    }&#13;
+    images {&#13;
+      id&#13;
+      baseUrl&#13;
+      preview&#13;
+    }&#13;
+    group {&#13;
+      id&#13;
+      name&#13;
+      urlname&#13;
+    }&#13;
+    tickets(input: {&#13;
+		first: $itemsNum,&#13;
+		after: $cursor&#13;
+	}) {&#13;
+      pageInfo {&#13;
+        hasNextPage&#13;
+        endCursor&#13;
+      }&#13;
+      yesCount&#13;
+      noCount&#13;
+      waitlistCount&#13;
+      attendedCount&#13;
+      absentCount&#13;
+      noShowCount&#13;
+      edges {&#13;
+        node {&#13;
+          id&#13;
+          status&#13;
+          quantity&#13;
+          guestsCount&#13;
+          user {&#13;
+            name&#13;
+            email&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }&#13;
+}&#13;
 </query>
         <sys_class_name>x_snc_meetup_com_query</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-01 15:24:06</sys_created_on>
         <sys_id>f5aa3013dbbad110791d8f8d13961961</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Get RSVPs for an upcoming event (DS)</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>x_snc_meetup_com_query_f5aa3013dbbad110791d8f8d13961961</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-02 23:46:48</sys_updated_on>
-        <variables>{
-  "eventId": "289022778"
+        <sys_updated_on>2022-11-05 22:57:05</sys_updated_on>
+        <variables>{&#13;
+  "eventId": "289022778",&#13;
+  "itemsNum" : 20,&#13;
+  "cursor" : null&#13;
 }</variables>
     </x_snc_meetup_com_query>
 </record_update>

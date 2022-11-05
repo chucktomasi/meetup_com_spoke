@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="sys_metadata" label="Query" max_length="40" name="x_snc_meetup_com_query" sizeclass="11" type="collection">
+    <element attributes="update_synch=true" db_object_id="40c5b76fdb725510791d8f8d13961931" extends="sys_metadata" label="Query" max_length="40" name="x_snc_meetup_com_query" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="ID" mandatory="true" max_length="40" name="id" type="string"/>
         <element display="true" label="Name" mandatory="true" max_length="80" name="name" type="string"/>

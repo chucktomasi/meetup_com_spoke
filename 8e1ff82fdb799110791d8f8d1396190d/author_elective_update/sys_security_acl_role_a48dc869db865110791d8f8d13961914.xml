@@ -42,7 +42,7 @@
         <update_guid_history>ac8dc86995865110e116fc4d01751f16:72789023</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_meetup_com_query.x_snc_meetup_com.query_user">edb5376fdb725510791d8f8d13961944</sys_audit_delete>
+        <sys_audit_delete display_value="">edb5376fdb725510791d8f8d13961944</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-02 23:39:09</sys_created_on>
