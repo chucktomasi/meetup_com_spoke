@@ -3,32 +3,48 @@
         <active>true</active>
         <id>get-event-details</id>
         <name>Get the details for a specific event</name>
-        <query>query ($eventId: ID!) {
-  event(id: $eventId) {
-    title
-    description
-    status
-    eventUrl
-    tickets {
-      yesCount
-      noCount
-      attendedCount
-    }
-  }
-}
+        <query>query ($eventId: ID!) {&#13;
+  event(id: $eventId) {&#13;
+    title&#13;
+    description&#13;
+    status&#13;
+    eventUrl&#13;
+	dateTime&#13;
+    duration&#13;
+    host {&#13;
+      id&#13;
+      name&#13;
+    }&#13;
+    images {&#13;
+      id&#13;
+      baseUrl&#13;
+      preview&#13;
+    }&#13;
+    group {&#13;
+      id&#13;
+      name&#13;
+      urlname&#13;
+    }&#13;
+	tickets {&#13;
+      yesCount&#13;
+      noCount&#13;
+      attendedCount&#13;
+    }&#13;
+  }&#13;
+}&#13;
 </query>
         <sys_class_name>x_snc_meetup_com_query</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-09-19 19:59:50</sys_created_on>
         <sys_id>588d5029dbc65110791d8f8d13961974</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Get the details for a specific event</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>x_snc_meetup_com_query_588d5029dbc65110791d8f8d13961974</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-02 23:46:48</sys_updated_on>
+        <sys_updated_on>2022-11-06 18:04:34</sys_updated_on>
         <variables>{
   "eventId" : "284986245"
 }</variables>

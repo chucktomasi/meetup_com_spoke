@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDcabf47b42e4b91101c8c8bb45c28336e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8e1ff82fdb799110791d8f8d1396190d</scope_name>
+        <serialized_content>{"FlowDesigner:FDcabf47b42e4b91101c8c8bb45c28336e":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2d5195db-4b7a-4600-9a9a-1b34fcd549ae\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"1e44932f-c2fe-44bc-bb5f-14dc180165db\"}"}},"FlowDesigner:FDcabf47b42e4b91101c8c8bb45c28336e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"299c222a-2ff8-4d8b-bc8c-20d69668ab9d\",\"default_value\":\"\",\"label\":\"Host\",\"mandatory\":\"false\",\"uiUniqueId\":\"06262988-fc36-4b75-93e1-b691fafc33e4\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDcabf47b42e4b91101c8c8bb45c28336e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"823b9382-09a9-4cd2-bbb7-6de7426c57aa\",\"hint\":null,\"uiType\":\"object\",\"order\":\"9\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-06 18:05:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8ebf47b4974b9110a75dfce3a253af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDcabf47b42e4b91101c8c8bb45c28336e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_complex_object_8ebf47b4974b9110a75dfce3a253af6e</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-06 18:05:34</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
