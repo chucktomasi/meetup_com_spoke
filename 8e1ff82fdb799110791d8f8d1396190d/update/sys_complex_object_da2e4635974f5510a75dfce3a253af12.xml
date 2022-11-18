@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1a2e4635c64f5510973e4bc010b30412</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8e1ff82fdb799110791d8f8d1396190d</scope_name>
+        <serialized_content>{"FlowDesigner:FD1a2e4635c64f5510973e4bc010b30412":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"72938352-d923-4d7f-8164-835839a402ab\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"ac788623-ac40-4d2c-9d9d-0c92c06d3ee5\"}"},"urlname":"String","urlname.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"urlname\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"69972b6c-e342-4c59-9fb4-c7bc22e2bf5b\"}"}},"FlowDesigner:FD1a2e4635c64f5510973e4bc010b30412.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"299c222a-2ff8-4d8b-bc8c-20d69668ab9d\",\"default_value\":\"\",\"label\":\"Group\",\"mandatory\":\"false\",\"uiUniqueId\":\"a7904a74-07c4-4168-8aad-03caa86f80bf\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1a2e4635c64f5510973e4bc010b30412\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"ee579113-eabc-43eb-9801-fbd900e89e10\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"10\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-09 15:53:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>da2e4635974f5510a75dfce3a253af12</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD1a2e4635c64f5510973e4bc010b30412</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_complex_object_da2e4635974f5510a75dfce3a253af12</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-09 15:53:05</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

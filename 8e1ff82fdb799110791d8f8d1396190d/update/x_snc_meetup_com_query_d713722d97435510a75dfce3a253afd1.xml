@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_meetup_com_query">
+    <x_snc_meetup_com_query action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <id>get-all-network-events-paginated</id>
+        <name>Get all events for network (DS)</name>
+        <query>query ($urlname: String!, $itemsNum: Int!, $cursor: String) {&#13;
+  proNetworkByUrlname(urlname: $urlname) {&#13;
+    eventsSearch(input: {first: $itemsNum, after: $cursor}) {&#13;
+      count&#13;
+      pageInfo {&#13;
+        endCursor&#13;
+        hasNextPage&#13;
+      }&#13;
+      edges {&#13;
+        cursor&#13;
+        node {&#13;
+          id&#13;
+          title&#13;
+          description&#13;
+          status&#13;
+          dateTime&#13;
+          eventUrl&#13;
+          group {&#13;
+            id&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }&#13;
+}&#13;
+</query>
+        <sys_class_name>x_snc_meetup_com_query</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-08 23:56:38</sys_created_on>
+        <sys_id>d713722d97435510a75dfce3a253afd1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Get all events for network (DS)</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>x_snc_meetup_com_query_d713722d97435510a75dfce3a253afd1</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-09 14:15:04</sys_updated_on>
+        <variables>{&#13;
+  "urlname": "servicenowdevprogram",&#13;
+  "itemsNum": 20,&#13;
+  "cursor": null&#13;
+}</variables>
+    </x_snc_meetup_com_query>
+</record_update>

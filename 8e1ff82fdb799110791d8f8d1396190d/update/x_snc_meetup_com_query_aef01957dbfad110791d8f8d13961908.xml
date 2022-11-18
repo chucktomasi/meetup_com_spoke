@@ -3,47 +3,44 @@
         <active>false</active>
         <id>get-group-members</id>
         <name>Get members for a particular group</name>
-        <query>query ($urlname: String!) {
-  groupByUrlname(urlname: $urlname) {
-    id
-    name
-    urlname
-    memberships {
-      count
-      pageInfo {
-        endCursor
-        hasNextPage
-      }
-			edges {
-        node {
-          id
-          name
-          username
-          email
-          status
-          isLeader
-          memberPhoto {
-            id
-            baseUrl
-          }
-        }
-      }
-    }
-  }
-}
+        <query>query ($urlname: String!) {&#13;
+  groupByUrlname(urlname: $urlname) {&#13;
+    id&#13;
+    name&#13;
+    urlname&#13;
+    memberships {&#13;
+      count&#13;
+      pageInfo {&#13;
+        endCursor&#13;
+        hasNextPage&#13;
+      }&#13;
+			edges {&#13;
+        node {&#13;
+          id&#13;
+          name&#13;
+          username&#13;
+          email&#13;
+          status&#13;
+          isLeader&#13;
+          memberPhotoUrl&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }&#13;
+}&#13;
 </query>
         <sys_class_name>x_snc_meetup_com_query</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-01 17:05:45</sys_created_on>
         <sys_id>aef01957dbfad110791d8f8d13961908</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Get members for a particular group</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>x_snc_meetup_com_query_aef01957dbfad110791d8f8d13961908</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-02 23:46:36</sys_updated_on>
+        <sys_updated_on>2022-11-17 16:25:42</sys_updated_on>
         <variables>{
   "urlname" :  "buffalo-servicenow-meetup-group"
 }</variables>

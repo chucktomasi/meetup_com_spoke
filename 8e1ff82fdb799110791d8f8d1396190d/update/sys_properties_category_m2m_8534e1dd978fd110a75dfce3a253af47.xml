@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Meetup.com Spoke">fc4425dd978fd110a75dfce3a253af50</category>
+        <order>1</order>
+        <property display_value="x_snc_meetup_com.page_size" name="x_snc_meetup_com.page_size">7d0421dd978fd110a75dfce3a253af99</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-07 23:33:49</sys_created_on>
+        <sys_id>8534e1dd978fd110a75dfce3a253af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_meetup_com.page_size.Meetup.com Spoke</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_8534e1dd978fd110a75dfce3a253af47</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-07 23:33:49</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

@@ -13,7 +13,7 @@
         <description>Get the members for the specified group (URL)</description>
         <ih_action>true</ih_action>
         <internal_name>get_group_members_ds</internal_name>
-        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e1254304-21c8-48eb-9eb8-a69a2023df85"}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.dateTime}}","label":"step➛JSON Parser step➛root➛data➛event➛dateTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].date_time}}","label":"step➛Script step➛Date Time","type":"step","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.images}}","label":"step➛JSON Parser step➛root➛data➛event➛images","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.host}}","label":"step➛JSON Parser step➛root➛data➛event➛host","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.group}}","label":"step➛JSON Parser step➛root➛data➛event➛group","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.tickets}}","label":"step➛JSON Parser step➛root➛data➛event➛tickets","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>7260b18cdb879510791d8f8d139619e2</master_snapshot>
         <name>Get group members (DS)</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_created_on>2022-11-03 18:09:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>6be3bf7fdbfe5510791d8f8d139619ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Get group members (DS)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6be3bf7fdbfe5510791d8f8d139619ef</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:56:28</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:19:36</sys_created_on>
         <sys_id>2e267333db329510791d8f8d139619c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 17:36:10</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"photo":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"email":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD122673336b329510453f207bd701be92":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"photo":"String","photo.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Photo\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}},"FlowDesigner:FD122673336b329510453f207bd701be92.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"User\",\"mandatory\":\"false\",\"uiUniqueId\":\"83038e24-481a-43a8-8a00-6eb455466a10\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD122673336b329510453f207bd701be92\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-11-17 21:27:25</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"isOrganizer":{"$cv":{"$c":"java.lang.String","$v":"false"}},"isLeader":{"$cv":{"$c":"java.lang.String","$v":"false"}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"photo":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"url":{"$cv":{"$c":"java.lang.String","$v":""}},"username":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD122673336b329510453f207bd701be92":{"isOrganizer":"Boolean","isOrganizer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is organizer\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"isLeader":"Boolean","isLeader.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is leader\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"photo":"String","photo.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Photo\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"url":"String","url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Username\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"FlowDesigner:FD122673336b329510453f207bd701be92.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"User\",\"mandatory\":\"false\",\"uiUniqueId\":\"83038e24-481a-43a8-8a00-6eb455466a10\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD122673336b329510453f207bd701be92\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="User">16267333db329510791d8f8d139619ab</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6be3bf7fdbfe5510791d8f8d139619ef"/>
@@ -377,7 +377,7 @@
         <sys_created_on>2022-11-03 18:12:47</sys_created_on>
         <sys_id>6a947bbfdbfe5510791d8f8d139619bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>nextPageToken</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -400,7 +400,7 @@
         <sys_created_on>2022-11-03 18:12:47</sys_created_on>
         <sys_id>ea947bbfdbfe5510791d8f8d139619b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>getNextPage</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -867,7 +867,7 @@
         <sys_created_on>2022-11-04 02:41:54</sys_created_on>
         <sys_id>d0292944db879510791d8f8d13961969</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request body</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -895,14 +895,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:19:35</sys_created_on>
         <sys_id>5a267333db329510791d8f8d1396197e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 02:41:55</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:27:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5a267333db329510791d8f8d1396197e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -913,33 +913,42 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:19:35</sys_created_on>
         <sys_id>16267333db329510791d8f8d13961984</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-03 18:55:59</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:27:54</sys_updated_on>
         <value>(function parse(inputs, outputs) {
 
-  try {
-        var item = JSON.parse(inputs.sourceItem);
+try {
+    var item = JSON.parse(inputs.sourceItem);
 
-        if (!item) {
-            gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
-            outputs.state = 'SKIP';
-        } else {
-            var obj = {
-                "id" : item.node.id,
-                "name" : item.node.name,
-                "email" : item.node.email,
-                "memberPhoto" : {
-                    "baseUrl" : item.node.memberPhoto.baseUrl
-                }
-            }
-            outputs.targetObject = obj;
-        }
-
-    } catch (e) {
-        gs.error('Script parse error: ' + e.message);
+    if (!item) {
+        gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
         outputs.state = 'SKIP';
+    } else {
+        var n = item.node;
+        // gs.info('&gt;&gt;&gt; n=' + JSON.stringify(n, null, 4));
+        var photo = "https://secure.meetupstatic.com/img/noPhoto_50.png";
+        if (n.hasOwnProperty('memberPhotoUrl')) {
+            if (n.memberPhotoUrl) {
+                photo = n.memberPhotoUrl;
+            }
+        };
+        var obj = {
+            "id" : n.id,
+            "name" : n.name,
+            "photo" : photo,
+            "url" : n.memberUrl,
+            "username" : n.username,
+            "isLeader" : n.isLeader,
+            "isOrganizer" : n.isOrganizer
+        }
+        outputs.targetObject = obj;
     }
+
+} catch (e) {
+    gs.error('Script parse error: ' + e.message);
+    outputs.state = 'SKIP';
+}
 
 // Source item string is available in inputs.sourceItem.
 // Generate output by setting fields of outputs.targetObject.
@@ -1574,7 +1583,7 @@
         <sys_created_on>2022-11-03 18:12:47</sys_created_on>
         <sys_id>2e947bbfdbfe5510791d8f8d139619df</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Credential Value</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -1602,14 +1611,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 02:29:45</sys_created_on>
         <sys_id>ee56e580db879510791d8f8d13961903</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 03:15:18</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:40:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee56e580db879510791d8f8d13961903"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1620,14 +1629,15 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 02:29:46</sys_created_on>
         <sys_id>6e56e580db879510791d8f8d1396191a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 03:15:18</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:40:23</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
+  var numItems = parseInt(gs.getProperty('x_snc_meetup_com.page_size', 20), 10);
   var requestBody = new GraphQL().setupMessage('get-group-members-paginated', {
     "urlname"  : inputs.group_url,
-    "itemsNum" : 20,
+    "itemsNum" : numItems,
     "cursor"   : null
   });
    
@@ -1663,6 +1673,18 @@
         <sys_updated_on>2022-11-04 02:29:46</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_ee56e580db879510791d8f8d13961903</table>
         <value>{{action.group_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ee56e580db879510791d8f8d13961903</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-07 23:40:23</sys_created_on>
+        <sys_id>50f5e59197cfd110a75dfce3a253afc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-07 23:40:23</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ee56e580db879510791d8f8d13961903^id=ee56e580db879510791d8f8d13961903"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ee56e580db879510791d8f8d13961903"/>
@@ -1849,7 +1871,7 @@
         <sys_created_on>2022-11-04 02:29:46</sys_created_on>
         <sys_id>ea56e580db879510791d8f8d13961915</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Body</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -2171,14 +2193,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>3294bbbfdbfe5510791d8f8d1396192a</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>111</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:31</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2606,14 +2628,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>7694bbbfdbfe5510791d8f8d1396191c</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>111</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:31</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2693,14 +2715,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>7a94bbbfdbfe5510791d8f8d1396192e</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>109</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:31</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2867,14 +2889,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>be94bbbfdbfe5510791d8f8d13961920</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>111</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:31</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3041,14 +3063,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>f694bbbfdbfe5510791d8f8d13961925</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>111</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:31</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3089,7 +3111,7 @@
         <sys_created_on>2022-11-03 18:12:46</sys_created_on>
         <sys_id>5a947bbfdbfe5510791d8f8d1396197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Group URL</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3114,7 +3136,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>3694bbbfdbfe5510791d8f8d13961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3137,7 +3159,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>3a94bbbfdbfe5510791d8f8d13961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_message</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3160,7 +3182,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>7294bbbfdbfe5510791d8f8d13961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>status_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3183,7 +3205,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>7a94bbbfdbfe5510791d8f8d13961904</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Item Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3206,7 +3228,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>7e94bbbfdbfe5510791d8f8d13961916</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>item</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3229,7 +3251,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>b294bbbfdbfe5510791d8f8d13961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Page Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3252,7 +3274,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>b694bbbfdbfe5510791d8f8d1396191b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_output_page_variables</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3275,7 +3297,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>ba94bbbfdbfe5510791d8f8d1396192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3298,7 +3320,7 @@
         <sys_created_on>2022-11-03 18:19:36</sys_created_on>
         <sys_id>de267333db329510791d8f8d139619ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>User</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3321,7 +3343,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>f294bbbfdbfe5510791d8f8d13961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_parsed_stream</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3344,7 +3366,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>fa94bbbfdbfe5510791d8f8d1396190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3367,7 +3389,7 @@
         <sys_created_on>2022-11-03 18:12:48</sys_created_on>
         <sys_id>fe94bbbfdbfe5510791d8f8d1396191f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>response_headers</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -3382,13 +3404,13 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get group members (DS)">6be3bf7fdbfe5510791d8f8d139619ef</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6070758cdb879510791d8f8d13961934","name":"plan","plan_signature":null}}</plan>
-        <snapshot>e5d0fd8cdb879510791d8f8d1396194c</snapshot>
+        <snapshot>8597ece097d31910a75dfce3a253afc2</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>6070758cdb879510791d8f8d13961934</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3396,7 +3418,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 03:15:38</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:15</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3410,7 +3432,7 @@
         <copied_from_name/>
         <description>Get the members for the specified group (URL)</description>
         <internal_name>get_group_members_ds</internal_name>
-        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e1254304-21c8-48eb-9eb8-a69a2023df85"}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.dateTime}}","label":"step➛JSON Parser step➛root➛data➛event➛dateTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].date_time}}","label":"step➛Script step➛Date Time","type":"step","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.images}}","label":"step➛JSON Parser step➛root➛data➛event➛images","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.host}}","label":"step➛JSON Parser step➛root➛data➛event➛host","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.group}}","label":"step➛JSON Parser step➛root➛data➛event➛group","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.tickets}}","label":"step➛JSON Parser step➛root➛data➛event➛tickets","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Get group members (DS)</name>
         <natlang/>
@@ -3422,7 +3444,7 @@
         <sys_created_on>2022-11-04 03:13:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7260b18cdb879510791d8f8d139619e2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3430,7 +3452,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:34</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:40:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3444,10 +3466,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>1b60f18cdb879510791d8f8d139619d9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:36</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"name":{"$cv":{"$c":"java.lang.String","$v":""}},"photo":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"email":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD5b60f18c55879510de67ebd163e7c071":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"photo":"String","photo.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Photo\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}},"FlowDesigner:FD5b60f18c55879510de67ebd163e7c071.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD5b60f18c55879510de67ebd163e7c071\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"User\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"83038e24-481a-43a8-8a00-6eb455466a10\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-11-17 21:27:41</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"isOrganizer":{"$cv":{"$c":"java.lang.String","$v":"false"}},"isLeader":{"$cv":{"$c":"java.lang.String","$v":"false"}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"photo":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"url":{"$cv":{"$c":"java.lang.String","$v":""}},"username":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD5b60f18c55879510de67ebd163e7c071":{"isOrganizer":"Boolean","isOrganizer.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is organizer\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"isLeader":"Boolean","isLeader.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"\",\"label\":\"Is leader\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"photo":"String","photo.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Photo\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"url":"String","url.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"username":"String","username.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Username\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"FlowDesigner:FD5b60f18c55879510de67ebd163e7c071.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD5b60f18c55879510de67ebd163e7c071\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"User\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"83038e24-481a-43a8-8a00-6eb455466a10\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="User">9360f18cdb879510791d8f8d139619a5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3646,14 +3668,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:45</sys_created_on>
         <sys_id>3260b18cdb879510791d8f8d139619f0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 03:15:33</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:40:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3260b18cdb879510791d8f8d139619f0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3664,14 +3686,15 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:45</sys_created_on>
         <sys_id>3660b18cdb879510791d8f8d139619ff</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 03:15:33</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:40:39</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
+  var numItems = parseInt(gs.getProperty('x_snc_meetup_com.page_size', 20), 10);
   var requestBody = new GraphQL().setupMessage('get-group-members-paginated', {
     "urlname"  : inputs.group_url,
-    "itemsNum" : 20,
+    "itemsNum" : numItems,
     "cursor"   : null
   });
    
@@ -3707,6 +3730,18 @@
         <sys_updated_on>2022-11-04 03:13:45</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3260b18cdb879510791d8f8d139619f0</table>
         <value>{{action.group_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>3260b18cdb879510791d8f8d139619f0</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-07 23:40:39</sys_created_on>
+        <sys_id>dc062d9197cfd110a75dfce3a253af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-07 23:40:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3260b18cdb879510791d8f8d139619f0^id=3260b18cdb879510791d8f8d139619f0"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=3260b18cdb879510791d8f8d139619f0"/>
@@ -3893,7 +3928,7 @@
         <sys_created_on>2022-11-04 03:13:45</sys_created_on>
         <sys_id>f660b18cdb879510791d8f8d139619fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Body</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -4323,7 +4358,7 @@
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>8360f18cdb879510791d8f8d13961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request body</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -4351,14 +4386,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>4f60f18cdb879510791d8f8d1396196b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 03:13:46</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4f60f18cdb879510791d8f8d1396196b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4369,33 +4404,42 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>8760f18cdb879510791d8f8d13961970</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-04 03:13:46</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:09</sys_updated_on>
         <value>(function parse(inputs, outputs) {
 
-  try {
-        var item = JSON.parse(inputs.sourceItem);
+try {
+    var item = JSON.parse(inputs.sourceItem);
 
-        if (!item) {
-            gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
-            outputs.state = 'SKIP';
-        } else {
-            var obj = {
-                "id" : item.node.id,
-                "name" : item.node.name,
-                "email" : item.node.email,
-                "memberPhoto" : {
-                    "baseUrl" : item.node.memberPhoto.baseUrl
-                }
-            }
-            outputs.targetObject = obj;
-        }
-
-    } catch (e) {
-        gs.error('Script parse error: ' + e.message);
+    if (!item) {
+        gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
         outputs.state = 'SKIP';
+    } else {
+        var n = item.node;
+        // gs.info('&gt;&gt;&gt; n=' + JSON.stringify(n, null, 4));
+        var photo = "https://secure.meetupstatic.com/img/noPhoto_50.png";
+        if (n.hasOwnProperty('memberPhotoUrl')) {
+            if (n.memberPhotoUrl) {
+                photo = n.memberPhotoUrl;
+            }
+        };
+        var obj = {
+            "id" : n.id,
+            "name" : n.name,
+            "photo" : photo,
+            "url" : n.memberUrl,
+            "username" : n.username,
+            "isLeader" : n.isLeader,
+            "isOrganizer" : n.isOrganizer
+        }
+        outputs.targetObject = obj;
     }
+
+} catch (e) {
+    gs.error('Script parse error: ' + e.message);
+    outputs.state = 'SKIP';
+}
 
 // Source item string is available in inputs.sourceItem.
 // Generate output by setting fields of outputs.targetObject.
@@ -5044,7 +5088,7 @@
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>cf60f18cdb879510791d8f8d13961944</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Credential Value</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -5303,7 +5347,7 @@
         <sys_created_on>2022-11-04 03:13:45</sys_created_on>
         <sys_id>4f60f18cdb879510791d8f8d13961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>nextPageToken</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -5326,7 +5370,7 @@
         <sys_created_on>2022-11-04 03:13:45</sys_created_on>
         <sys_id>8f60f18cdb879510791d8f8d1396190e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>getNextPage</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -5584,14 +5628,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>1760f18cdb879510791d8f8d1396199c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:36</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5932,14 +5976,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>5f60f18cdb879510791d8f8d13961997</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:36</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6106,14 +6150,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>9760f18cdb879510791d8f8d13961993</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:36</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6367,14 +6411,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>db60f18cdb879510791d8f8d139619a0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:36</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6541,14 +6585,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>df60f18cdb879510791d8f8d1396198e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:46:36</sys_updated_on>
+        <sys_updated_on>2022-11-17 21:28:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6589,7 +6633,7 @@
         <sys_created_on>2022-11-04 03:13:45</sys_created_on>
         <sys_id>7660b18cdb879510791d8f8d139619e9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Group URL</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6614,7 +6658,7 @@
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>1360f18cdb879510791d8f8d1396198e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_output_page_variables</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6637,7 +6681,7 @@
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>1760f18cdb879510791d8f8d1396197c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Page Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6660,7 +6704,7 @@
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>1f60f18cdb879510791d8f8d1396199f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6683,7 +6727,7 @@
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>5760f18cdb879510791d8f8d1396199b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>status_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6706,7 +6750,7 @@
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>5b60f18cdb879510791d8f8d13961989</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>item</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6729,7 +6773,7 @@
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>5f60f18cdb879510791d8f8d13961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Item Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6752,7 +6796,7 @@
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>9360f18cdb879510791d8f8d13961985</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6775,7 +6819,7 @@
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>9f60f18cdb879510791d8f8d13961996</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_message</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6798,7 +6842,7 @@
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>d360f18cdb879510791d8f8d139619a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_parsed_stream</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6821,7 +6865,7 @@
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>d760f18cdb879510791d8f8d13961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>response_headers</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6844,7 +6888,7 @@
         <sys_created_on>2022-11-04 03:13:46</sys_created_on>
         <sys_id>db60f18cdb879510791d8f8d13961980</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>count</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
@@ -6867,7 +6911,7 @@
         <sys_created_on>2022-11-04 03:13:47</sys_created_on>
         <sys_id>db60f18cdb879510791d8f8d139619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>User</sys_name>
+        <sys_name/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>

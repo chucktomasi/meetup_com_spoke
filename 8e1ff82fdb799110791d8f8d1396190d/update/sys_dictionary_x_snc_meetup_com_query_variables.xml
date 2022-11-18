@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="variables" table="x_snc_meetup_com_query">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>edge_encryption_enabled=true,json_view=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_meetup_com_query_variables</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-02 23:43:02</sys_updated_on>
+        <sys_updated_on>2022-11-08 23:57:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

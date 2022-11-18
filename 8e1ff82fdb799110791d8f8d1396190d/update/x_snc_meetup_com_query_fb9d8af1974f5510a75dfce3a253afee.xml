@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_meetup_com_query">
+    <x_snc_meetup_com_query action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <id>get-group-details</id>
+        <name>Get group details</name>
+        <query>query ($urlname: String!) {&#13;
+  groupByUrlname(urlname: $urlname) {&#13;
+    id&#13;
+    name&#13;
+    urlname&#13;
+    status&#13;
+    city&#13;
+    country&#13;
+    memberships {&#13;
+      count&#13;
+    }&#13;
+  }&#13;
+}&#13;
+</query>
+        <sys_class_name>x_snc_meetup_com_query</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-09 15:51:19</sys_created_on>
+        <sys_id>fb9d8af1974f5510a75dfce3a253afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get group details</sys_name>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>x_snc_meetup_com_query_fb9d8af1974f5510a75dfce3a253afee</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-09 15:51:19</sys_updated_on>
+        <variables>{&#13;
+  "urlname" : "phoenix-servicenow-developer-meetup"&#13;
+}</variables>
+    </x_snc_meetup_com_query>
+</record_update>

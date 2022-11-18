@@ -13,7 +13,7 @@
         <description>Get a list of upcoming events for the specified group URL</description>
         <ih_action>true</ih_action>
         <internal_name>get_upcoming_group_events_ds</internal_name>
-        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e1254304-21c8-48eb-9eb8-a69a2023df85"}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.dateTime}}","label":"step➛JSON Parser step➛root➛data➛event➛dateTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].date_time}}","label":"step➛Script step➛Date Time","type":"step","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.images}}","label":"step➛JSON Parser step➛root➛data➛event➛images","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.host}}","label":"step➛JSON Parser step➛root➛data➛event➛host","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.group}}","label":"step➛JSON Parser step➛root➛data➛event➛group","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.tickets}}","label":"step➛JSON Parser step➛root➛data➛event➛tickets","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9677941-9c41-48af-982e-236c5e98c6e5].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d9677941-9c41-48af-982e-236c5e98c6e5].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>194603e0970b5110a75dfce3a253af30</master_snapshot>
         <name>Get upcoming group events (DS)</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_created_on>2022-11-05 17:39:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>a420066c97c35110a75dfce3a253af7d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Get upcoming group events (DS)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a420066c97c35110a75dfce3a253af7d</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:32</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:02:05</sys_created_on>
         <sys_id>cd4c722897c75110a75dfce3a253af60</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:45:46</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"dateTime":{"$cv":{"$c":"java.lang.String","$v":""}},"eventUrl":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"title":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD744c72289ec751105fa82f058ea69b33":{"dateTime":"Date","dateTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Date/Time\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"glide_date_time\",\"default_value\":\"\",\"label\":\"Date time\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"eventUrl":"String","eventUrl.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FD744c72289ec751105fa82f058ea69b33.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Event\",\"mandatory\":\"false\",\"uiUniqueId\":\"0468ddb8-324f-4066-a7a0-2ea5931ad90f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD744c72289ec751105fa82f058ea69b33\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-11-07 01:19:24</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"dateTime":{"$cv":{"$c":"java.lang.String","$v":""}},"eventUrl":{"$cv":{"$c":"java.lang.String","$v":""}},"description":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"title":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD744c72289ec751105fa82f058ea69b33":{"dateTime":"Date","dateTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Date/Time\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"glide_date_time\",\"default_value\":\"\",\"label\":\"Date time\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"eventUrl":"String","eventUrl.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"}},"FlowDesigner:FD744c72289ec751105fa82f058ea69b33.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Event\",\"mandatory\":\"false\",\"uiUniqueId\":\"0468ddb8-324f-4066-a7a0-2ea5931ad90f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD744c72289ec751105fa82f058ea69b33\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Event">cd4c722897c75110a75dfce3a253af4a</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a420066c97c35110a75dfce3a253af7d"/>
@@ -146,14 +146,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>071206ec97c35110a75dfce3a253af43</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 14:57:28</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:33:48</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=071206ec97c35110a75dfce3a253af43"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -164,31 +164,36 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>1b1206ec97c35110a75dfce3a253af55</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 14:57:28</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:33:48</sys_updated_on>
         <value>(function parse(inputs, outputs) {
 
- try {
-        var item = JSON.parse(inputs.sourceItem);
+try {
+    var item = JSON.parse(inputs.sourceItem);
 
-        if (!item) {
-            gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
-            outputs.state = 'SKIP';
-        } else {
-            var obj = {
-                "id" : item.node.id,
-                "title" : item.node.title,
-                "eventUrl" : item.node.eventUrl,
-                "dateTime" : new DateTime().convertMeetupDateTimeToGlideDateTime(item.node.dateTime)
-            }
-            outputs.targetObject = obj;
-        }
-
-    } catch (e) {
-        gs.error('Script parse error: ' + e.message);
+    if (!item) {
+        gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
         outputs.state = 'SKIP';
+    } else {
+        // gs.info('&gt;&gt;&gt; item.node.dateTime=' + item.node.dateTime);
+        var n = item.node;
+        var myDateTime = new x_snc_meetup_com.DateTime().convertMeetupDateTimeToGlideDateTime(n.dateTime); 
+        var obj = {
+            "id"          : n.id,
+            "title"       : n.title,
+            "description" : n.description,
+            "status"      : n.status.toLowerCase(),
+            "eventUrl"    : n.eventUrl,
+            "dateTime"    : myDateTime.getDisplayValue()
+        };
+        outputs.targetObject = obj;
     }
+
+} catch (e) {
+    gs.error('Script parse error: ' + e.message);
+    outputs.state = 'SKIP';
+}
 
 // Source item string is available in inputs.sourceItem.
 // Generate output by setting fields of outputs.targetObject.
@@ -1635,14 +1640,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:47:59</sys_created_on>
         <sys_id>f612c2ec97c35110a75dfce3a253afaa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 18:34:20</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:39:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f612c2ec97c35110a75dfce3a253afaa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1653,19 +1658,20 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:47:59</sys_created_on>
         <sys_id>b212c2ec97c35110a75dfce3a253afbd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 18:16:32</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:39:46</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
+  var numItems = parseInt(gs.getProperty('x_snc_meetup_com.page_size', 20), 10);
   var requestBody = new GraphQL().setupMessage('get-upcoming-group-events-paginated', {
     "urlname"  : inputs.group_url,
-    "itemsNum" : 20,
+    "itemsNum" : numItems,
     "cursor"   : null
   });
-   
+
   outputs.request_body = requestBody;
-  
+
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1696,6 +1702,18 @@
         <sys_updated_on>2022-11-05 17:47:59</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_f612c2ec97c35110a75dfce3a253afaa</table>
         <value>{{action.group_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>f612c2ec97c35110a75dfce3a253afaa</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-07 23:39:46</sys_created_on>
+        <sys_id>1bc5619197cfd110a75dfce3a253af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-07 23:39:46</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f612c2ec97c35110a75dfce3a253afaa^id=f612c2ec97c35110a75dfce3a253afaa"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f612c2ec97c35110a75dfce3a253afaa"/>
@@ -2043,14 +2061,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>131206ec97c35110a75dfce3a253af93</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:25</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2391,14 +2409,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>5b1206ec97c35110a75dfce3a253af87</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:25</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2478,14 +2496,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>5f1206ec97c35110a75dfce3a253af96</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:25</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2652,14 +2670,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>971206ec97c35110a75dfce3a253af8b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:25</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2913,14 +2931,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>d31206ec97c35110a75dfce3a253af8f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:25</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3341,13 +3359,13 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get upcoming group events (DS)">a420066c97c35110a75dfce3a253af7d</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3aa02b34978b9110a75dfce3a253afc2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>eda0e734978b9110a75dfce3a253af03</snapshot>
+        <snapshot>6783781a8747d510dc1a65773cbb3557</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-06 19:19:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>3aa02b34978b9110a75dfce3a253afc2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3355,7 +3373,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:37</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:18</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3369,7 +3387,7 @@
         <copied_from_name/>
         <description>Get a list of upcoming events for the specified group URL</description>
         <internal_name>get_upcoming_group_events_ds</internal_name>
-        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e1254304-21c8-48eb-9eb8-a69a2023df85"}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.dateTime}}","label":"step➛JSON Parser step➛root➛data➛event➛dateTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].date_time}}","label":"step➛Script step➛Date Time","type":"step","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.images}}","label":"step➛JSON Parser step➛root➛data➛event➛images","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.host}}","label":"step➛JSON Parser step➛root➛data➛event➛host","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.group}}","label":"step➛JSON Parser step➛root➛data➛event➛group","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.tickets}}","label":"step➛JSON Parser step➛root➛data➛event➛tickets","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9677941-9c41-48af-982e-236c5e98c6e5].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d9677941-9c41-48af-982e-236c5e98c6e5].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>Get upcoming group events (DS)</name>
         <natlang/>
@@ -3381,7 +3399,7 @@
         <sys_created_on>2022-11-05 22:45:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>194603e0970b5110a75dfce3a253af30</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3389,7 +3407,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:45:48</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3459,10 +3477,10 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>fd4603e0970b5110a75dfce3a253afdc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"dateTime":{"$cv":{"$c":"java.lang.String","$v":""}},"eventUrl":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"title":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD214603e07e0b51107c19c48452ae93a0":{"dateTime":"Date","dateTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Date/Time\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"glide_date_time\",\"default_value\":\"\",\"label\":\"Date time\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"eventUrl":"String","eventUrl.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FD214603e07e0b51107c19c48452ae93a0.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD214603e07e0b51107c19c48452ae93a0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Event\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"0468ddb8-324f-4066-a7a0-2ea5931ad90f\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2022-11-07 01:19:29</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"dateTime":{"$cv":{"$c":"java.lang.String","$v":""}},"eventUrl":{"$cv":{"$c":"java.lang.String","$v":""}},"description":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"title":{"$cv":{"$c":"java.lang.String","$v":""}},"status":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD214603e07e0b51107c19c48452ae93a0":{"dateTime":"Date","dateTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Date/Time\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"glide_date_time\",\"default_value\":\"\",\"label\":\"Date time\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"eventUrl":"String","eventUrl.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"}},"FlowDesigner:FD214603e07e0b51107c19c48452ae93a0.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD214603e07e0b51107c19c48452ae93a0\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Event\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"0468ddb8-324f-4066-a7a0-2ea5931ad90f\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Event">bd4603e0970b5110a75dfce3a253afc6</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=194603e0970b5110a75dfce3a253af30"/>
@@ -4095,14 +4113,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:49</sys_created_on>
         <sys_id>254603e0970b5110a75dfce3a253af9a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:31</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=254603e0970b5110a75dfce3a253af9a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4113,31 +4131,36 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:49</sys_created_on>
         <sys_id>6d4603e0970b5110a75dfce3a253af9e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:31</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:09</sys_updated_on>
         <value>(function parse(inputs, outputs) {
 
- try {
-        var item = JSON.parse(inputs.sourceItem);
+try {
+    var item = JSON.parse(inputs.sourceItem);
 
-        if (!item) {
-            gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
-            outputs.state = 'SKIP';
-        } else {
-            var obj = {
-                "id" : item.node.id,
-                "title" : item.node.title,
-                "eventUrl" : item.node.eventUrl,
-                "dateTime" : new DateTime().convertMeetupDateTimeToGlideDateTime(item.node.dateTime)
-            }
-            outputs.targetObject = obj;
-        }
-
-    } catch (e) {
-        gs.error('Script parse error: ' + e.message);
+    if (!item) {
+        gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
         outputs.state = 'SKIP';
+    } else {
+        // gs.info('&gt;&gt;&gt; item.node.dateTime=' + item.node.dateTime);
+        var n = item.node;
+        var myDateTime = new x_snc_meetup_com.DateTime().convertMeetupDateTimeToGlideDateTime(n.dateTime); 
+        var obj = {
+            "id"          : n.id,
+            "title"       : n.title,
+            "description" : n.description,
+            "status"      : n.status.toLowerCase(),
+            "eventUrl"    : n.eventUrl,
+            "dateTime"    : myDateTime.getDisplayValue()
+        };
+        outputs.targetObject = obj;
     }
+
+} catch (e) {
+    gs.error('Script parse error: ' + e.message);
+    outputs.state = 'SKIP';
+}
 
 // Source item string is available in inputs.sourceItem.
 // Generate output by setting fields of outputs.targetObject.
@@ -4559,14 +4582,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:48</sys_created_on>
         <sys_id>954603e0970b5110a75dfce3a253af3d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:45:48</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:40:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=954603e0970b5110a75dfce3a253af3d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4577,19 +4600,20 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:49</sys_created_on>
         <sys_id>614603e0970b5110a75dfce3a253af4b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:45:49</sys_updated_on>
+        <sys_updated_on>2022-11-07 23:40:00</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
+  var numItems = parseInt(gs.getProperty('x_snc_meetup_com.page_size', 20), 10);
   var requestBody = new GraphQL().setupMessage('get-upcoming-group-events-paginated', {
     "urlname"  : inputs.group_url,
-    "itemsNum" : 20,
+    "itemsNum" : numItems,
     "cursor"   : null
   });
-   
+
   outputs.request_body = requestBody;
-  
+
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -4620,6 +4644,18 @@
         <sys_updated_on>2022-11-05 22:45:49</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_954603e0970b5110a75dfce3a253af3d</table>
         <value>{{action.group_url}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>954603e0970b5110a75dfce3a253af3d</id>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-07 23:40:00</sys_created_on>
+        <sys_id>7ed5259197cfd110a75dfce3a253afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-07 23:40:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_954603e0970b5110a75dfce3a253af3d^id=954603e0970b5110a75dfce3a253af3d"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=954603e0970b5110a75dfce3a253af3d"/>
@@ -5676,14 +5712,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>354603e0970b5110a75dfce3a253afc0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:32</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5937,14 +5973,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>754603e0970b5110a75dfce3a253afb6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:32</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6024,14 +6060,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>794603e0970b5110a75dfce3a253afc3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:32</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6198,14 +6234,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>b94603e0970b5110a75dfce3a253afb9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:32</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6459,14 +6495,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>fd4603e0970b5110a75dfce3a253afbc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-06 19:19:32</sys_updated_on>
+        <sys_updated_on>2022-11-10 22:34:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

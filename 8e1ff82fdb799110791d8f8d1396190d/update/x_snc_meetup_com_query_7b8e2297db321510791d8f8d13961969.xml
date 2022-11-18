@@ -3,47 +3,49 @@
         <active>true</active>
         <id>get-past-group-events-paginated</id>
         <name>Get Past Events for group (DS)</name>
-        <query>query ($urlname: String!, $itemsNum: Int!, $cursor: String) {
-  groupByUrlname(urlname: $urlname) {
-    id
-    name
-    link
-    pastEvents(
-		input: {
-			first: $itemsNum,
-			after: $cursor
-		}
-	) {
-      count
-      pageInfo {
-        endCursor
-        hasNextPage
-      }
-      edges {
-        cursor
-        node {
-          id
-          title
-          eventUrl
-          dateTime
-        }
-      }
-    }
-  }
-}
+        <query>query ($urlname: String!, $itemsNum: Int!, $cursor: String) {&#13;
+  groupByUrlname(urlname: $urlname) {&#13;
+    id&#13;
+    name&#13;
+    link&#13;
+    pastEvents(&#13;
+		input: {&#13;
+			first: $itemsNum,&#13;
+			after: $cursor&#13;
+		}&#13;
+	) {&#13;
+      count&#13;
+      pageInfo {&#13;
+        endCursor&#13;
+        hasNextPage&#13;
+      }&#13;
+      edges {&#13;
+        cursor&#13;
+        node {&#13;
+		  id&#13;
+		  title&#13;
+		  description&#13;
+		  status&#13;
+		  dateTime&#13;
+		  eventUrl&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }&#13;
+}&#13;
 </query>
         <sys_class_name>x_snc_meetup_com_query</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-01 23:49:47</sys_created_on>
         <sys_id>7b8e2297db321510791d8f8d13961969</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Get Past Events for group (DS)</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>x_snc_meetup_com_query_7b8e2297db321510791d8f8d13961969</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-05 22:57:21</sys_updated_on>
+        <sys_updated_on>2022-11-07 02:05:37</sys_updated_on>
         <variables>{&#13;
   "urlname": "phoenix-servicenow-developer-meetup",&#13;
   "itemsNum": 10,&#13;

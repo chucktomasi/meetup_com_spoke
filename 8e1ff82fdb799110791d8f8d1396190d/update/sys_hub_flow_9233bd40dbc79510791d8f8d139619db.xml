@@ -229,7 +229,7 @@
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-04 03:28:16</sys_updated_on>
         <value/>
-        <variable display_value="URL Name">6cffa7bbdbfe5510791d8f8d139619f9</variable>
+        <variable display_value="Network URL">6cffa7bbdbfe5510791d8f8d139619f9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d6a33d80dbc79510791d8f8d13961902"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
