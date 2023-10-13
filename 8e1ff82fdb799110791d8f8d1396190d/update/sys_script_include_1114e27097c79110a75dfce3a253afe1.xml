@@ -9,48 +9,59 @@
         <name>DateTime</name>
         <script><![CDATA[var DateTime = Class.create();
 DateTime.prototype = {
-	initialize: function() {
-	},
+    initialize: function() {},
 
-	convertMeetupDateTimeToGlideDateTime : function(dateStr) {
-		
-		// Note: Time has no seconds
-		var dateRegEx = /(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})([+-])(\d{2}:\d{2})/;
+    convertMeetupDateTimeToGlideDateTime: function(dateStr) {
 
-		var datePart  = dateStr.match(dateRegEx);
-		var gdtStr    = datePart[1];
-		var gtStr     = datePart[2] + ":00";
-		var offset    = datePart[3];
-		var offsetStr = datePart[4] + ":00";
-		var gdt = new GlideDateTime(gdtStr + ' ' + gtStr);
-		//gs.info(gdt.getDisplayValue());
+        var hasTZ = true;
+        var timeRegEx = /(\d{2}:\d{2})([+-])(\d{2}:\d{2})/;
+        var datePart = dateStr.split('T'); // Split the date from the time
 
-		// Now add the TZ offset back in to get to UTC
-		var gt = new GlideTime();
-		gt.setValue(offsetStr);
-		if (offset == '+') {
-			gdt.subtract(gt);
-		} else {
-			gdt.add(gt);
-		}
-		
-		return gdt;
-		
-	},
+		// Check if +/- is found in the time. If not, use a different regex
+        if (datePart[1].indexOf('+') == -1 && datePart[1].indexOf('-') == -1) {
+            timeRegEx = /(\d{2}:\d{2})/;
+            hasTZ = false;
+        }
 
-	type: 'DateTime'
+		// Create the default param for GlideDateTime
+        // Note: Time has no seconds
+        var timePart = datePart[1].match(timeRegEx);
+        var gdtStr = datePart[0] + ' ' + timePart[1] + ":00";
+        var gdt = new GlideDateTime(gdtStr);
+
+		// If there's a TZ offset, apply it here
+        if (hasTZ) {
+            offset = timePart[2];
+            offsetStr = timePart[3] + ":00";
+
+            // Now add the TZ offset back in to get to UTC
+            var gt = new GlideTime();
+            gt.setValue(offsetStr);
+            if (offset == '+') {
+                gdt.subtract(gt);
+            } else {
+                gdt.add(gt);
+            }
+
+        }
+
+        return gdt;
+
+    },
+
+    type: 'DateTime'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-06 14:56:31</sys_created_on>
         <sys_id>1114e27097c79110a75dfce3a253afe1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>DateTime</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_script_include_1114e27097c79110a75dfce3a253afe1</sys_update_name>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-07 01:30:57</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 21:12:38</sys_updated_on>
     </sys_script_include>
 </record_update>

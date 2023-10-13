@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd115eb2ea6353910a9a3635054e32252</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8e1ff82fdb799110791d8f8d1396190d</scope_name>
+        <serialized_content>{"FlowDesigner:FDd115eb2ea6353910a9a3635054e32252":{"dateTime":"Date","dateTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Date/Time\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"glide_date_time\",\"default_value\":\"\",\"label\":\"Date time\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"eventUrl":"String","eventUrl.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"URL\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":"String","status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"}},"FlowDesigner:FDd115eb2ea6353910a9a3635054e32252.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Event\",\"mandatory\":\"false\",\"uiUniqueId\":\"0468ddb8-324f-4066-a7a0-2ea5931ad90f\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd115eb2ea6353910a9a3635054e32252\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>chuck.tomasi@servicenow.com</sys_created_by>
+        <sys_created_on>2023-10-13 19:12:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9515eb2e47353910248ddf37436d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDd115eb2ea6353910a9a3635054e32252</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name>sys_complex_object_9515eb2e47353910248ddf37436d4352</sys_update_name>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:12:06</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

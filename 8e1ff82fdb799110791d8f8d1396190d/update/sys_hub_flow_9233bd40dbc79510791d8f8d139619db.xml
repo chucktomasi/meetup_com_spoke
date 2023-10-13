@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Network">c4d22a27db7e1510791d8f8d1396195b</category>
         <compiler_build/>
@@ -147,6 +148,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c2a3f980dbc79510791d8f8d139619e0"/>
     <sys_hub_flow_output action="delete_multiple" query="model=9233bd40dbc79510791d8f8d139619db"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9233bd40dbc79510791d8f8d139619db"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=9233bd40dbc79510791d8f8d139619db^sys_idNOT IN5aa33d80dbc79510791d8f8d13961907,d6a33d80dbc79510791d8f8d13961902"/>
@@ -155,6 +157,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -196,6 +199,7 @@
         <action_inputs/>
         <action_type display_value="Get network groups (DS)">64ffa7bbdbfe5510791d8f8d139619f6</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>

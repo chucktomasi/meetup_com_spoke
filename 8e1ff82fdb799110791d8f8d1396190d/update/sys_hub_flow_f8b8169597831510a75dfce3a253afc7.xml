@@ -4,6 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -28,7 +29,7 @@
         <sys_created_on>2022-11-08 03:22:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>f8b8169597831510a75dfce3a253afc7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Test: Get RSVPs for an event</sys_name>
         <sys_overrides/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
@@ -36,7 +37,7 @@
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_hub_flow_f8b8169597831510a75dfce3a253afc7</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-08 03:32:28</sys_updated_on>
+        <sys_updated_on>2022-11-21 17:48:39</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f8b8169597831510a75dfce3a253afc7"/>
@@ -145,6 +146,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bbba1a1997831510a75dfce3a253af5d"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f8b8169597831510a75dfce3a253afc7"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f8b8169597831510a75dfce3a253afc7"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=f8b8169597831510a75dfce3a253afc7^sys_idNOT IN3fba1a1997831510a75dfce3a253af8c,bbba1a1997831510a75dfce3a253af92"/>
@@ -153,6 +155,7 @@
         <action_inputs/>
         <action_type display_value="Get RSVPs for event (DS)">77268ba0970b5110a75dfce3a253af7e</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Test: Get RSVPs for an event">f8b8169597831510a75dfce3a253afc7</flow>
@@ -193,6 +196,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Test: Get RSVPs for an event">f8b8169597831510a75dfce3a253afc7</flow>
@@ -251,11 +255,11 @@ Status: {{0c4e6467-48c9-4a24-a50f-ed98e22eac4f.rsvp.status}}
         <sys_created_on>2022-11-08 03:31:05</sys_created_on>
         <sys_id>f3ba1a1997831510a75dfce3a253af61</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event ID</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f8b8169597831510a75dfce3a253afc7_event_id_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-08 03:31:05</sys_updated_on>
         <url/>
@@ -264,32 +268,12 @@ Status: {{0c4e6467-48c9-4a24-a50f-ed98e22eac4f.rsvp.status}}
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f8b8169597831510a75dfce3a253afc7"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f8b8169597831510a75dfce3a253afc7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f8b8169597831510a75dfce3a253afc7"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f8b8169597831510a75dfce3a253afc7"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f8b8169597831510a75dfce3a253afc7^sys_idNOT IN4c1b125997831510a75dfce3a253aff1"/>
-    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@484ad0</plan>
-        <plan_id display_value="Test: Get RSVPs for an event">f8b8169597831510a75dfce3a253afc7</plan_id>
-        <snapshot>d70bde1997831510a75dfce3a253afce</snapshot>
-        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-08 03:32:28</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_id>4c1b125997831510a75dfce3a253aff1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-08 03:32:28</sys_updated_on>
-    </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -429,6 +413,7 @@ Status: {{0c4e6467-48c9-4a24-a50f-ed98e22eac4f.rsvp.status}}
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5b0bde1997831510a75dfce3a253afd0"/>
     <sys_hub_flow_output action="delete_multiple" query="model=d70bde1997831510a75dfce3a253afce"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d70bde1997831510a75dfce3a253afce"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=d70bde1997831510a75dfce3a253afce^sys_idNOT IN6b0b125997831510a75dfce3a253af11,af0b125997831510a75dfce3a253af0b"/>
@@ -437,6 +422,7 @@ Status: {{0c4e6467-48c9-4a24-a50f-ed98e22eac4f.rsvp.status}}
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Test: Get RSVPs for an event">d70bde1997831510a75dfce3a253afce</flow>
@@ -482,6 +468,7 @@ Status: {{0c4e6467-48c9-4a24-a50f-ed98e22eac4f.rsvp.status}}
         <action_inputs/>
         <action_type display_value="Get RSVPs for event (DS)">77268ba0970b5110a75dfce3a253af7e</action_type>
         <action_type_parent display_value="Get RSVPs for event (DS)">0efe32e897c75110a75dfce3a253afe2</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Test: Get RSVPs for an event">d70bde1997831510a75dfce3a253afce</flow>
@@ -535,11 +522,11 @@ Status: {{0c4e6467-48c9-4a24-a50f-ed98e22eac4f.rsvp.status}}
         <sys_created_on>2022-11-08 03:32:25</sys_created_on>
         <sys_id>9f0bde1997831510a75dfce3a253afdf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event ID</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d70bde1997831510a75dfce3a253afce_event_id_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-08 03:32:25</sys_updated_on>
         <url/>
@@ -553,4 +540,25 @@ Status: {{0c4e6467-48c9-4a24-a50f-ed98e22eac4f.rsvp.status}}
         <latest_snapshot>d70bde1997831510a75dfce3a253afce</latest_snapshot>
         <compiler_build/>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f8b8169597831510a75dfce3a253afc7"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f8b8169597831510a75dfce3a253afc7^sys_idNOT IN4c1b125997831510a75dfce3a253aff1"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@484ad0</plan>
+        <plan_id display_value="Test: Get RSVPs for an event">f8b8169597831510a75dfce3a253afc7</plan_id>
+        <snapshot>d70bde1997831510a75dfce3a253afce</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2022-11-08 03:32:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4c1b125997831510a75dfce3a253aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2022-11-08 03:32:28</sys_updated_on>
+    </sys_flow_subflow_plan>
 </record_update>

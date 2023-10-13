@@ -2,7 +2,7 @@
     <oauth_entity_scope action="INSERT_OR_UPDATE">
         <in_default_profile>true</in_default_profile>
         <name>basic</name>
-        <oauth_entity display_value="Meetup API">ecb2fa2897875110a75dfce3a253afe3</oauth_entity>
+        <oauth_entity display_value="">ecb2fa2897875110a75dfce3a253afe3</oauth_entity>
         <oauth_entity_scope>basic</oauth_entity_scope>
         <sys_class_name>oauth_entity_scope</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>

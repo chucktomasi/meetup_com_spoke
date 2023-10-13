@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Group">c0837b7fdbfe5510791d8f8d13961994</category>
         <compiler_build/>
@@ -147,6 +148,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3af43504dbc79510791d8f8d13961953"/>
     <sys_hub_flow_output action="delete_multiple" query="model=636479c0dbc79510791d8f8d1396199e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=636479c0dbc79510791d8f8d1396199e"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=636479c0dbc79510791d8f8d1396199e^sys_idNOT IN07f43504dbc79510791d8f8d13961981,47f43504dbc79510791d8f8d13961986"/>
@@ -155,6 +157,7 @@
         <action_inputs/>
         <action_type display_value="Get group members (DS)">7260b18cdb879510791d8f8d139619e2</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -196,6 +199,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>

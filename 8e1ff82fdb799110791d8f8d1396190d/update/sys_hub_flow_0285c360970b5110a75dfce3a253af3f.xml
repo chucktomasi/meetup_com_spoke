@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Network">c4d22a27db7e1510791d8f8d1396195b</category>
         <compiler_build/>
@@ -147,6 +148,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0cd5cb60970b5110a75dfce3a253af59"/>
     <sys_hub_flow_output action="delete_multiple" query="model=0285c360970b5110a75dfce3a253af3f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0285c360970b5110a75dfce3a253af3f"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f^sys_idNOT IN90b78b64970b5110a75dfce3a253afb7,add68f24970b5110a75dfce3a253af0e"/>
@@ -155,6 +157,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -196,6 +199,7 @@
         <action_inputs/>
         <action_type display_value="Get all groups, upcoming events, and RSVPs">f01607a0970b5110a75dfce3a253af70</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -235,6 +239,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=0285c360970b5110a75dfce3a253af3f^sys_idNOT IN5cb78b64970b5110a75dfce3a253afac,d0b78b64970b5110a75dfce3a253afb1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">d0b78b64970b5110a75dfce3a253afac</block>
         <comment>Go through all groups</comment>
         <connected_to/>
@@ -285,6 +290,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5cb78b64970b5110a75dfce3a253afac"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5cb78b64970b5110a75dfce3a253afac"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">9cb78b64970b5110a75dfce3a253afb0</block>
         <comment>Go through each group's upcoming events</comment>
         <connected_to/>

@@ -4,7 +4,7 @@
         <grant_type>authorization_code</grant_type>
         <jwt_provider/>
         <name>Meetup API default_profile</name>
-        <oauth_entity display_value="Meetup API">ecb2fa2897875110a75dfce3a253afe3</oauth_entity>
+        <oauth_entity display_value="">ecb2fa2897875110a75dfce3a253afe3</oauth_entity>
         <saml2_assertion_producer/>
         <sys_class_name>oauth_entity_profile</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>

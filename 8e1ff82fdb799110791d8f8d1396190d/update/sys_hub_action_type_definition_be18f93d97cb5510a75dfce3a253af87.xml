@@ -30,7 +30,7 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:16:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>be18f93d97cb5510a75dfce3a253af87</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get all events for network (DS)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
@@ -38,7 +38,7 @@ Outputs: Event record details</description>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_be18f93d97cb5510a75dfce3a253af87</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:32:05</sys_updated_on>
+        <sys_updated_on>2022-11-21 17:48:28</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -632,11 +632,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:48</sys_created_on>
         <sys_id>fa1b7dfd97cb5510a75dfce3a253af50</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_261b7dfd97cb5510a75dfce3a253af2b_sn_auth_token_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:48</sys_updated_on>
         <url/>
@@ -1019,11 +1019,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:47</sys_created_on>
         <sys_id>221b7dfd97cb5510a75dfce3a253af12</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>getNextPage</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_661b7dfd97cb5510a75dfce3a253af0b_getNextPage_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:47</sys_updated_on>
         <url/>
@@ -1042,11 +1042,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:47</sys_created_on>
         <sys_id>a61b7dfd97cb5510a75dfce3a253af15</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>nextPageToken</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_661b7dfd97cb5510a75dfce3a253af0b_nextPageToken_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:47</sys_updated_on>
         <url/>
@@ -1121,18 +1121,6 @@ Outputs: Event record details</description>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=661b7dfd97cb5510a75dfce3a253af1a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>661b7dfd97cb5510a75dfce3a253af1a</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 14:29:48</sys_created_on>
-        <sys_id>aa1b7dfd97cb5510a75dfce3a253af27</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 14:29:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>requestBodyStr</field>
         <id>661b7dfd97cb5510a75dfce3a253af1a</id>
         <sys_created_by>chuck.tomasi</sys_created_by>
@@ -1143,18 +1131,6 @@ Outputs: Event record details</description>
         <sys_updated_on>2022-11-09 14:29:48</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_661b7dfd97cb5510a75dfce3a253af1a</table>
         <value>{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].request_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>661b7dfd97cb5510a75dfce3a253af1a</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 14:29:48</sys_created_on>
-        <sys_id>6e1b7dfd97cb5510a75dfce3a253af27</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 14:29:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_661b7dfd97cb5510a75dfce3a253af1a^id=661b7dfd97cb5510a75dfce3a253af1a"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=661b7dfd97cb5510a75dfce3a253af1a"/>
@@ -1341,11 +1317,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:48</sys_created_on>
         <sys_id>621b7dfd97cb5510a75dfce3a253af24</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request body</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_661b7dfd97cb5510a75dfce3a253af1a_request_body_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:48</sys_updated_on>
         <url/>
@@ -1420,30 +1396,6 @@ Outputs: Event record details</description>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a61b3dfd97cb5510a75dfce3a253afed"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>a61b3dfd97cb5510a75dfce3a253afed</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 14:29:47</sys_created_on>
-        <sys_id>ae1b3dfd97cb5510a75dfce3a253afff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 14:29:47</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>a61b3dfd97cb5510a75dfce3a253afed</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 14:29:47</sys_created_on>
-        <sys_id>621b7dfd97cb5510a75dfce3a253af00</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 14:29:47</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>urlName</field>
         <id>a61b3dfd97cb5510a75dfce3a253afed</id>
@@ -1641,11 +1593,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:47</sys_created_on>
         <sys_id>221b3dfd97cb5510a75dfce3a253affc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request body</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a61b3dfd97cb5510a75dfce3a253afed_request_body_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:47</sys_updated_on>
         <url/>
@@ -3038,11 +2990,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:47</sys_created_on>
         <sys_id>d61b3dfd97cb5510a75dfce3a253afe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Network URL</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_be18f93d97cb5510a75dfce3a253af87_network_url_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:47</sys_updated_on>
         <url/>
@@ -3063,11 +3015,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>0b1b7dfd97cb5510a75dfce3a253afac</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_status_code_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3086,11 +3038,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>0f1b7dfd97cb5510a75dfce3a253af9c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>item</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_item_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3109,11 +3061,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>321b7dfd97cb5510a75dfce3a253af8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Item Count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_item_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3132,11 +3084,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>4b1b7dfd97cb5510a75dfce3a253afa8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_message</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_error_message_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3155,11 +3107,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>4f1b7dfd97cb5510a75dfce3a253af98</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_ds_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3178,11 +3130,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>721b7dfd97cb5510a75dfce3a253af89</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_event_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3201,11 +3153,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>871b7dfd97cb5510a75dfce3a253afb4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_parsed_stream</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_ds_parsed_stream_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3224,11 +3176,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>8b1b7dfd97cb5510a75dfce3a253afa4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_headers</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_response_headers_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3247,11 +3199,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>be1b7dfd97cb5510a75dfce3a253af94</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3270,11 +3222,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>c71b7dfd97cb5510a75dfce3a253afb0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_code</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_error_code_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3293,11 +3245,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>cb1b7dfd97cb5510a75dfce3a253afa0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_output_page_variables</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_ds_output_page_variables_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3316,11 +3268,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 14:29:49</sys_created_on>
         <sys_id>fe1b7dfd97cb5510a75dfce3a253af90</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page Count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_be18f93d97cb5510a75dfce3a253af87_page_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 14:29:49</sys_updated_on>
         <url/>
@@ -3830,11 +3782,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:10</sys_created_on>
         <sys_id>02f282f5970f5510a75dfce3a253afdd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>getNextPage</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_0af282f5970f5510a75dfce3a253afd7_getNextPage_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:10</sys_updated_on>
         <url/>
@@ -3853,11 +3805,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:10</sys_created_on>
         <sys_id>cef282f5970f5510a75dfce3a253afdf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>nextPageToken</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_0af282f5970f5510a75dfce3a253afd7_nextPageToken_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:10</sys_updated_on>
         <url/>
@@ -4163,18 +4115,6 @@ Outputs: Event record details</description>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8af282f5970f5510a75dfce3a253afe4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>8af282f5970f5510a75dfce3a253afe4</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 15:04:10</sys_created_on>
-        <sys_id>46f282f5970f5510a75dfce3a253affe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 15:04:10</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>requestBodyStr</field>
         <id>8af282f5970f5510a75dfce3a253afe4</id>
         <sys_created_by>chuck.tomasi</sys_created_by>
@@ -4185,18 +4125,6 @@ Outputs: Event record details</description>
         <sys_updated_on>2022-11-09 15:04:10</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_8af282f5970f5510a75dfce3a253afe4</table>
         <value>{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].request_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>8af282f5970f5510a75dfce3a253afe4</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 15:04:10</sys_created_on>
-        <sys_id>0af282f5970f5510a75dfce3a253affe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 15:04:10</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8af282f5970f5510a75dfce3a253afe4^id=8af282f5970f5510a75dfce3a253afe4"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=8af282f5970f5510a75dfce3a253afe4"/>
@@ -4383,11 +4311,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:10</sys_created_on>
         <sys_id>42f282f5970f5510a75dfce3a253affb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request body</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8af282f5970f5510a75dfce3a253afe4_request_body_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:10</sys_updated_on>
         <url/>
@@ -4847,11 +4775,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:10</sys_created_on>
         <sys_id>42f2c2f5970f5510a75dfce3a253af25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8ef2c2f5970f5510a75dfce3a253af1a_sn_auth_token_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:10</sys_updated_on>
         <url/>
@@ -5101,30 +5029,6 @@ Outputs: Event record details</description>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f9f282f5970f5510a75dfce3a253afbe"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>f9f282f5970f5510a75dfce3a253afbe</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 15:04:09</sys_created_on>
-        <sys_id>cef282f5970f5510a75dfce3a253afcc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 15:04:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>f9f282f5970f5510a75dfce3a253afbe</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-09 15:04:09</sys_created_on>
-        <sys_id>82f282f5970f5510a75dfce3a253afcd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-09 15:04:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>urlName</field>
         <id>f9f282f5970f5510a75dfce3a253afbe</id>
         <sys_created_by>chuck.tomasi</sys_created_by>
@@ -5321,11 +5225,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:09</sys_created_on>
         <sys_id>86f282f5970f5510a75dfce3a253afc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request body</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f9f282f5970f5510a75dfce3a253afbe_request_body_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:09</sys_updated_on>
         <url/>
@@ -6487,11 +6391,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:09</sys_created_on>
         <sys_id>f1f282f5970f5510a75dfce3a253afb6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Network URL</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f9f282f5970f5510a75dfce3a253afac_network_url_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:09</sys_updated_on>
         <url/>
@@ -6512,11 +6416,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>16f2c2f5970f5510a75dfce3a253af50</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Item Count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_item_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6535,11 +6439,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>1af2c2f5970f5510a75dfce3a253af5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>item</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_item_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6558,11 +6462,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>1ef2c2f5970f5510a75dfce3a253af6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_status_code_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6581,11 +6485,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>52f2c2f5970f5510a75dfce3a253af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_code</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_error_code_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6604,11 +6508,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>5af2c2f5970f5510a75dfce3a253af53</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page Count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_page_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6627,11 +6531,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>5ef2c2f5970f5510a75dfce3a253af60</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_output_page_variables</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_ds_output_page_variables_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6650,11 +6554,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>92f2c2f5970f5510a75dfce3a253af64</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_headers</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_response_headers_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6673,11 +6577,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>9ef2c2f5970f5510a75dfce3a253af56</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6696,11 +6600,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>a6f2c2f5970f5510a75dfce3a253af71</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_parsed_stream</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_ds_parsed_stream_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6719,11 +6623,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>d2f2c2f5970f5510a75dfce3a253af5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_ds_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6742,11 +6646,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>d6f2c2f5970f5510a75dfce3a253af67</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_message</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_error_message_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>
@@ -6765,11 +6669,11 @@ Outputs: Event record details</description>
         <sys_created_on>2022-11-09 15:04:11</sys_created_on>
         <sys_id>def2c2f5970f5510a75dfce3a253af4c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9f282f5970f5510a75dfce3a253afac_event_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-09 15:04:11</sys_updated_on>
         <url/>

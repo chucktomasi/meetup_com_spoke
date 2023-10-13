@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Event">f6b11d0fdb7e9110791d8f8d13961922</category>
         <compiler_build/>
@@ -147,6 +148,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=25297c4197cf9110a75dfce3a253af4c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=60d8744197cf9110a75dfce3a253af75"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=60d8744197cf9110a75dfce3a253af75"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=60d8744197cf9110a75dfce3a253af75^sys_idNOT IN25297c4197cf9110a75dfce3a253af6e,e5297c4197cf9110a75dfce3a253af68"/>
@@ -155,6 +157,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -196,6 +199,7 @@
         <action_inputs/>
         <action_type display_value="Get Event">32a60b24970b5110a75dfce3a253afd8</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
@@ -250,11 +254,11 @@
         <sys_created_on>2022-11-07 01:46:11</sys_created_on>
         <sys_id>a5297c4197cf9110a75dfce3a253af4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event ID</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_60d8744197cf9110a75dfce3a253af75_event_id_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-07 01:46:11</sys_updated_on>
         <url/>

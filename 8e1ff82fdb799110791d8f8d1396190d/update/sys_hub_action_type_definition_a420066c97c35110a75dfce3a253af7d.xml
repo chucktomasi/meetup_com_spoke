@@ -11,7 +11,7 @@
         <copied_from/>
         <copied_from_name/>
         <description>Get a list of upcoming events for the specified group URL</description>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>get_upcoming_group_events_ds</internal_name>
         <label_cache>[{"name":"{{action.query}}","label":"action➛query","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.query_string}}","label":"action➛Query String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variables}}","label":"action➛Variables","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.url_name}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.urlname}}","label":"action➛URL Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e1254304-21c8-48eb-9eb8-a69a2023df85"}},{"name":"{{action.group_url}}","label":"action➛Group URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_id}}","label":"action➛Event ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.network_url}}","label":"action➛Network URL","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[acf3f1ec-1f6a-4890-a6ee-450dea44bcc0].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eb172f3e-e48c-47f4-8026-34044a6fd5da].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c47bcbb5-116d-4793-8d6f-52d4eb53af54].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":"","reference_display":"","base_type":"password2","parent_table_name":"","column_name":"","choices":null,"attributes":{"isLocal":"true"}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].responsebody}}","label":"step➛Script step➛responseBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fb179c24-4fb3-4e87-98c5-1c8dea09b3e0].httpstatus}}","label":"step➛Script step➛httpStatus","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[ce53e5a0-74f1-4522-80a1-70c6f5d08417].output}}","label":"step➛Script step➛output","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].variable}}","label":"step➛Prepare request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dbbbc7e1-990a-497d-8f20-611124bdcb11].request_body}}","label":"step➛Prepare request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8c2dfcfa-06e3-41ec-b447-0f9abd0d9e7e].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[323d8889-615e-4f68-a432-17a9579028ed].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.name}}","label":"step➛JSON Parser step➛root➛data➛self➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.username}}","label":"step➛JSON Parser step➛root➛data➛self➛username","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.id}}","label":"step➛JSON Parser step➛root➛data➛self➛id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b9427a38-2cc9-4945-964a-f14c1f291499].root.data.self.email}}","label":"step➛JSON Parser step➛root➛data➛self➛email","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[80710255-ef1f-4db6-8fb0-0864c746531a].nextPageTokenJSON}}","label":"step➛Pagination Setup step➛nextPageTokenJSON","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4f300998-3b18-42e0-ac4a-76530c37a215].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bf821c80-a1d5-48ee-8e3d-f940a2b8c633].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5cc5b533-813c-45b2-ad98-9f9a602f6968].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].request_body}}","label":"step➛Script step➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].pagetoken}}","label":"step➛Script step➛pageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fa7b79cc-039b-4ca7-a497-9beffccbce8a].page_token}}","label":"step➛Script step➛Page token","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[dac855e4-516f-48ac-a307-b1b63660df2b].request_body}}","label":"step➛Set up request body➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9e7e173-4e16-4642-ab45-9cc1acd944e7].requestBody}}","label":"step➛Pagination Setup step➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].requestbody}}","label":"step➛Add page token to request body➛requestBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5750e823-67a1-4515-a165-271d56f7f5fd].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].variable}}","label":"step➛Set up GraphQL➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1345b7dc-71f2-4f84-a05a-ab557d8eef90].request_body}}","label":"step➛Set up GraphQL➛Request Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[79f490dd-e330-4adc-aa1d-569f5061a1ca].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.title}}","label":"step➛JSON Parser step➛root➛data➛event➛title","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.description}}","label":"step➛JSON Parser step➛root➛data➛event➛description","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.status}}","label":"step➛JSON Parser step➛root➛data➛event➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.eventUrl}}","label":"step➛JSON Parser step➛root➛data➛event➛eventUrl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].variable}}","label":"Set up request bodystep➛Set up request body➛vriable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7762f38f-3d26-4206-8ee0-941f6f4d5dfa].request_body}}","label":"Set up request bodystep➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[fbfe839d-2792-4815-a357-ff64e808dd6f].nextPageToken}}","label":"step➛Pagination Setup step➛nextPageToken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[52a10cd9-d929-409d-862d-c2f43390232d].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[5a671a5b-fd52-487c-9ca1-86b3a68022fc].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[f863cde5-0ce9-4a60-a597-4c5203385ddb].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cc7a009-6b96-4071-b01f-0cc37638b01f].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.dateTime}}","label":"step➛JSON Parser step➛root➛data➛event➛dateTime","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0a619729-87fa-4ae6-b9c3-70d73551558a].date_time}}","label":"step➛Script step➛Date Time","type":"step","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.images}}","label":"step➛JSON Parser step➛root➛data➛event➛images","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.host}}","label":"step➛JSON Parser step➛root➛data➛event➛host","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.group}}","label":"step➛JSON Parser step➛root➛data➛event➛group","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[299c222a-2ff8-4d8b-bc8c-20d69668ab9d].root.data.event.tickets}}","label":"step➛JSON Parser step➛root➛data➛event➛tickets","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].variable}}","label":"step➛Set up request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7728dc00-2e1f-42de-acb6-a10a3433dba8].request_body}}","label":"step➛Set up request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d9677941-9c41-48af-982e-236c5e98c6e5].variable}}","label":"step➛Add page token to request body➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d9677941-9c41-48af-982e-236c5e98c6e5].request_body}}","label":"step➛Add page token to request body➛Request body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>194603e0970b5110a75dfce3a253af30</master_snapshot>
@@ -20,21 +20,21 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:39:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>a420066c97c35110a75dfce3a253af7d</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Get upcoming group events (DS)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a420066c97c35110a75dfce3a253af7d</sys_update_name>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:34:10</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -146,14 +146,14 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>071206ec97c35110a75dfce3a253af43</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:33:48</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:52</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=071206ec97c35110a75dfce3a253af43"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -164,20 +164,23 @@
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>1b1206ec97c35110a75dfce3a253af55</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:33:48</sys_updated_on>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:52</sys_updated_on>
         <value>(function parse(inputs, outputs) {
 
 try {
+
+    gs.info('&gt;&gt;&gt;SourceItem=' + inputs.sourceItem);
+
     var item = JSON.parse(inputs.sourceItem);
 
     if (!item) {
         gs.info('Script Parser Step: SKIP item = ' + inputs.sourceItem);
         outputs.state = 'SKIP';
     } else {
-        // gs.info('&gt;&gt;&gt; item.node.dateTime=' + item.node.dateTime);
         var n = item.node;
+        // gs.info('&gt;&gt;&gt; n=' + JSON.stringify(n, null 4));
         var myDateTime = new x_snc_meetup_com.DateTime().convertMeetupDateTimeToGlideDateTime(n.dateTime); 
         var obj = {
             "id"          : n.id,
@@ -1703,18 +1706,6 @@ try {
         <table>var__m_sys_hub_step_ext_input_f612c2ec97c35110a75dfce3a253afaa</table>
         <value>{{action.group_url}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>f612c2ec97c35110a75dfce3a253afaa</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-07 23:39:46</sys_created_on>
-        <sys_id>1bc5619197cfd110a75dfce3a253af27</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-07 23:39:46</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f612c2ec97c35110a75dfce3a253afaa^id=f612c2ec97c35110a75dfce3a253afaa"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f612c2ec97c35110a75dfce3a253afaa"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=f612c2ec97c35110a75dfce3a253afaa^sys_idNOT IN7212c2ec97c35110a75dfce3a253afb2"/>
@@ -2061,14 +2052,14 @@ try {
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>131206ec97c35110a75dfce3a253af93</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2409,14 +2400,14 @@ try {
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>5b1206ec97c35110a75dfce3a253af87</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2496,14 +2487,14 @@ try {
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>5f1206ec97c35110a75dfce3a253af96</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2670,14 +2661,14 @@ try {
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>971206ec97c35110a75dfce3a253af8b</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2931,14 +2922,14 @@ try {
         <sys_created_by>chuck.tomasi</sys_created_by>
         <sys_created_on>2022-11-05 17:48:01</sys_created_on>
         <sys_id>d31206ec97c35110a75dfce3a253af8f</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-10 22:34:01</sys_updated_on>
+        <sys_updated_by>chuck.tomasi@servicenow.com</sys_updated_by>
+        <sys_updated_on>2023-10-13 19:11:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4085,11 +4076,11 @@ try {
         <sys_created_on>2022-11-05 22:45:49</sys_created_on>
         <sys_id>a14603e0970b5110a75dfce3a253af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request body</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_254603e0970b5110a75dfce3a253af61_request_body_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:49</sys_updated_on>
         <url/>
@@ -4531,11 +4522,11 @@ try {
         <sys_created_on>2022-11-05 22:45:49</sys_created_on>
         <sys_id>214603e0970b5110a75dfce3a253af5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>nextPageToken</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_694603e0970b5110a75dfce3a253af54_nextPageToken_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:49</sys_updated_on>
         <url/>
@@ -4554,11 +4545,11 @@ try {
         <sys_created_on>2022-11-05 22:45:49</sys_created_on>
         <sys_id>614603e0970b5110a75dfce3a253af5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>getNextPage</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_694603e0970b5110a75dfce3a253af54_getNextPage_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:49</sys_updated_on>
         <url/>
@@ -4644,18 +4635,6 @@ try {
         <sys_updated_on>2022-11-05 22:45:49</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_954603e0970b5110a75dfce3a253af3d</table>
         <value>{{action.group_url}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>954603e0970b5110a75dfce3a253af3d</id>
-        <sys_created_by>chuck.tomasi</sys_created_by>
-        <sys_created_on>2022-11-07 23:40:00</sys_created_on>
-        <sys_id>7ed5259197cfd110a75dfce3a253afbe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>chuck.tomasi</sys_updated_by>
-        <sys_updated_on>2022-11-07 23:40:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_954603e0970b5110a75dfce3a253af3d^id=954603e0970b5110a75dfce3a253af3d"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=954603e0970b5110a75dfce3a253af3d"/>
@@ -4842,11 +4821,11 @@ try {
         <sys_created_on>2022-11-05 22:45:48</sys_created_on>
         <sys_id>654603e0970b5110a75dfce3a253af47</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Request body</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_954603e0970b5110a75dfce3a253af3d_request_body_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:48</sys_updated_on>
         <url/>
@@ -5377,11 +5356,11 @@ try {
         <sys_created_on>2022-11-05 22:45:49</sys_created_on>
         <sys_id>a94603e0970b5110a75dfce3a253af7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e54603e0970b5110a75dfce3a253af75_sn_auth_token_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:49</sys_updated_on>
         <url/>
@@ -6543,11 +6522,11 @@ try {
         <sys_created_on>2022-11-05 22:45:48</sys_created_on>
         <sys_id>9d4603e0970b5110a75dfce3a253af36</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Group URL</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_194603e0970b5110a75dfce3a253af30_group_url_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:48</sys_updated_on>
         <url/>
@@ -6568,11 +6547,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>314603e0970b5110a75dfce3a253afaf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_ds_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6591,11 +6570,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>354603e0970b5110a75dfce3a253afbc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_message</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_error_message_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6614,11 +6593,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>714603e0970b5110a75dfce3a253afa5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Item Count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_item_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6637,11 +6616,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>754603e0970b5110a75dfce3a253afb2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>item</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_item_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6660,11 +6639,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>794603e0970b5110a75dfce3a253afbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_status_code_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6683,11 +6662,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>794603e0970b5110a75dfce3a253afc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Event</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_event_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6706,11 +6685,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>b54603e0970b5110a75dfce3a253afa8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page Count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_page_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6729,11 +6708,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>b94603e0970b5110a75dfce3a253afb5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_output_page_variables</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_ds_output_page_variables_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6752,11 +6731,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>bd4603e0970b5110a75dfce3a253afc2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_code</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_error_code_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6775,11 +6754,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>f14603e0970b5110a75dfce3a253afc6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_parsed_stream</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_ds_parsed_stream_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6798,11 +6777,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>f94603e0970b5110a75dfce3a253afab</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>count</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_count_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
@@ -6821,11 +6800,11 @@ try {
         <sys_created_on>2022-11-05 22:45:50</sys_created_on>
         <sys_id>fd4603e0970b5110a75dfce3a253afb8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_headers</sys_name>
         <sys_package display_value="Meetup.com Spoke" source="x_snc_meetup_com">8e1ff82fdb799110791d8f8d1396190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meetup.com Spoke">8e1ff82fdb799110791d8f8d1396190d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_194603e0970b5110a75dfce3a253af30_response_headers_en</sys_update_name>
         <sys_updated_by>chuck.tomasi</sys_updated_by>
         <sys_updated_on>2022-11-05 22:45:50</sys_updated_on>
         <url/>
